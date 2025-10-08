@@ -1,0 +1,44 @@
+I"þ<h1 id="research"><i class="fas fa-microscope"></i>Research</h1>
+
+<!-- section break -->
+
+<h2 id="somes-projects">Somes Projects</h2>
+
+<div class="feature">
+  <a class="feature_image">
+    <img src="/images/research/thematic_1_update.jpg" loading="lazy" alt="" />
+  </a>
+  <div class="feature_text">
+<p>Allogeneic chimaeric antigen receptor T cells (allo-CAR T cells) derived from healthy donors could provide rapid access to standardized and affordable batches of therapeutic cells if their rejection by the hostâ€™s immune system is avoided. Here, by means of an in vivo genome-wide CRISPR knockout screen, we show that the deletion of Fas or B2m in allo- T cells increases their survival in immunocompetent mice.
+<br /></p>
+
+
+  </div>
+</div>
+
+<div class="feature">
+  <a class="feature_image">
+    <img src="/images/research/thematic_2.jpg" loading="lazy" alt="" />
+  </a>
+  <div class="feature_text">
+<p>In vivo genome-wide CRISPR screens in primary T cells allow the systematic and unbiased identification of non-redundant regulatory mechanisms shaping immune responses. Here, we present an optimized protocol for efficient generation of a pool of genome-wide inactivated Cas9-expressing T cells using a retroviral library of sgRNA.
+<br /></p>
+
+
+  </div>
+</div>
+
+<div class="feature">
+  <a class="feature_image">
+    <img src="/images/research/thematic_3.jpg" loading="lazy" alt="" />
+  </a>
+  <div class="feature_text">
+<p>Using genome-wide CRISPR-Cas9 screens and an in vivo system modeling of antigen-experienced CD4+ T cell recruitment and proliferation during a localized immune response, we identified suppressor of cytokine signaling 1 (SOCS1) as a major nonredundant checkpoint imposing a brake on CD4+ T cell proliferation.
+<br /></p>
+
+
+  </div>
+</div>
+
+<!-- section break -->
+:ET

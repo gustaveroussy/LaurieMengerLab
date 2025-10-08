@@ -1,0 +1,12 @@
+I"<h1 id="current-opportunties"><i class="fas fa-microscope"></i>Current Opportunties</h1>
+<!-- section break -->
+
+<div class="feature">
+  <a class="feature_image">
+    <img src="/images/Travaux.jpg" loading="lazy" alt="" />
+  </a>
+  <div class="feature_text">
+
+  </div>
+</div>
+:ET

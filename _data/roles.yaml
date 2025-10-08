@@ -5,6 +5,10 @@ pi:
 md:
   icon: fas fa-user-md
   text: Physician
+  
+postdoc:
+  icon: fa-solid fa-glasses
+  text: Postdoctoral Researcher
 
 phd:
   icon: fas fa-graduation-cap

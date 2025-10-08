@@ -1,0 +1,210 @@
+I"�H<h1 id="publications"><i class="fas fa-microscope"></i>Publications</h1>
+
+<!-- section break -->
+
+<h2 id="selected-publications">Selected Publications.</h2>
+
+<!-- section break -->
+
+<div class="search_box">
+  <input class="search_input" oninput="onSearchInput(this)" placeholder="Search" title="Search content on this page" />
+  <button disabled="" data-tooltip="Clear search" onclick="onSearchClear()">
+    <i class="fas fa-search"></i>
+  </button>
+</div>
+
+<div class="search_info"></div>
+
+<h3 id="2024">2024</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://www.nature.com/articles/s41551-024-01282-8">
+        <img src="https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41551-024-01282-8/MediaObjects/41551_2024_1282_Fig1_HTML.png" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="https://doi.org/10.1038/s41551-024-01282-8" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://www.nature.com/articles/s41551-024-01282-8">
+        Ablation of FAS confers allogeneic CD3– CAR T cells with resistance to rejection by T cells and natural killer cells
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Silvia Menegatti, Sheila Lopez-Cobo, Aurelien Sutra Del Galy, Jaime Fuentealba, Lisseth Silva, Laetitia Perrin, Sandrine Heurtebise-Chrétien, Valentine Pottez-Jouatte, Aurelie Darbois, Nina Burgdorf, Anne-Laure Privat, Albane Simon, Marguerite Laprie-Sentenac, Michael Saitakis, Bryce Wick, Beau R. Webber, Branden S. Moriarity, Olivier Lantz, Sebastian Amigorena, Laurie Menger
+    </div><div class="citation_details">
+      Nature Biomedical Engineering&nbsp; · &nbsp;01 Dec 2024
+    </div><div class="tags" data-link="http://0.0.0.0:4000/publications/"><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: highlights&quot;" class="tag" data-tooltip="Show items with the tag &quot;highlights&quot;">highlights</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: Antibodies&quot;" class="tag" data-tooltip="Show items with the tag &quot;Antibodies&quot;">Antibodies</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: Eukaryotic cell lines&quot;" class="tag" data-tooltip="Show items with the tag &quot;Eukaryotic cell lines&quot;">Eukaryotic cell lines</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: Animals and other organisms&quot;" class="tag" data-tooltip="Show items with the tag &quot;Animals and other organisms&quot;">Animals and other organisms</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: Flow cytometry&quot;" class="tag" data-tooltip="Show items with the tag &quot;Flow cytometry&quot;">Flow cytometry</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2023">2023</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://www.nature.com/articles/s43018-023-00570-7">
+        <img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43018-023-00570-7/MediaObjects/43018_2023_570_Fig2_HTML.png" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="https://doi.org/10.1038/s43018-023-00570-7" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://www.nature.com/articles/s43018-023-00570-7">
+        Tumor-intrinsic sensitivity to the pro-apoptotic effects of IFN-γ is a major determinant of CD4+ CAR T-cell antitumor activity
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Morgane Boulch, Marine Cazaux, Alexis Cuffel, Marion V. Guerin, Zacarias Garcia, Ruby Alonso, Fabrice Lemaître, Alexander Beer, Béatrice Corre, Laurie Menger, Capucine L. Grandjean, Florence Morin, Catherine Thieblemont, Sophie Caillat-Zucman, Philippe Bousso
+    </div><div class="citation_details">
+      Nature Cancer&nbsp; · &nbsp;01 Jul 2023
+    </div><div class="tags" data-link="http://0.0.0.0:4000/publications/"><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: Cancer&quot;" class="tag" data-tooltip="Show items with the tag &quot;Cancer&quot;">Cancer</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: Imaging the immune system&quot;" class="tag" data-tooltip="Show items with the tag &quot;Imaging the immune system&quot;">Imaging the immune system</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: Immunotherapy&quot;" class="tag" data-tooltip="Show items with the tag &quot;Immunotherapy&quot;">Immunotherapy</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://doi.org/g8x64h">
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2666166722008024-fx1_lrg.jpg" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi:10.1016/j.xpro.2022.101922" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://doi.org/g8x64h">
+        Optimized protocol to generate genome-wide inactivated Cas9-expressing murine T cells
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Marguerite Laprie-Sentenac, Clara Cretet-Rodeschini, Laurie Menger
+    </div><div class="citation_details">
+      STAR Protocols&nbsp; · &nbsp;01 Mar 2023
+    </div><div class="tags" data-link="http://0.0.0.0:4000/publications/"><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: highlights&quot;" class="tag" data-tooltip="Show items with the tag &quot;highlights&quot;">highlights</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: genomics&quot;" class="tag" data-tooltip="Show items with the tag &quot;genomics&quot;">genomics</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: tb&quot;" class="tag" data-tooltip="Show items with the tag &quot;tb&quot;">tb</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2022">2022</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://jitc.bmj.com/content/10/8/e004807">
+        <img src="https://jitc.bmj.com/content/jitc/10/8/e004807/F1.medium.gif" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="https://doi.org/10.1136/jitc-2022-004807" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://jitc.bmj.com/content/10/8/e004807">
+        Single-cell transcriptomics reveals shared immunosuppressive landscapes of mouse and human neuroblastoma
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Ana Costa, Cécile Thirant, Amira Kramdi, Cécile Pierre-Eugène, Caroline Louis-Brennetot, Orphée Blanchard, Didier Surdez, Nadege Gruel, Eve Lapouble, Gaëlle Pierron, Deborah Sitbon, Hervé Brisse, Arnaud Gauthier, Paul Fréneaux, Mylène Bohec, Virginie Raynal, Sylvain Baulande, Renaud Leclere, Gabriel Champenois, Andre Nicolas, Didier Meseure, Angela Bellini, Aurelien Marabelle, Birgit Geoerger, Fatima Mechta-Grigoriou, Gudrun Schleiermacher, Laurie Menger, Olivier Delattre, Isabelle Janoueix-Lerosey
+    </div><div class="citation_details">
+      Journal for ImmunoTherapy of Cancer&nbsp; · &nbsp;01 Aug 2022
+    </div><div class="tags" data-link="http://0.0.0.0:4000/publications/"><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: single cell&quot;" class="tag" data-tooltip="Show items with the tag &quot;single cell&quot;">single cell</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: transcriptomics&quot;" class="tag" data-tooltip="Show items with the tag &quot;transcriptomics&quot;">transcriptomics</a></div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://doi.org/gprm5g">
+        <img src="https://ars.els-cdn.com/content/image/1-s2.0-S009286742200201X-fx1_lrg.jpg" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi:10.1016/j.cell.2022.02.021" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://doi.org/gprm5g">
+        Tissue-resident FOLR2+ macrophages associate with CD8+ T cell infiltration in human breast cancer
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Rodrigo Nalio Ramos, Yoann Missolo-Koussou, Yohan Gerber-Ferder, Christian P. Bromley, Mattia Bugatti, Nicolas Gonzalo Núñez, Jimena Tosello Boari, Wilfrid Richer, Laurie Menger, Jordan Denizeau, Christine Sedlik, Pamela Caudana, Fiorella Kotsias, Leticia L. Niborski, Sophie Viel, Mylène Bohec, Sonia Lameiras, Sylvain Baulande, Laëtitia Lesage, André Nicolas, Didier Meseure, Anne Vincent-Salomon, Fabien Reyal, Charles-Antoine Dutertre, Florent Ginhoux, Lene Vimeux, Emmanuel Donnadieu, Bénédicte Buttard, Jérôme Galon, Santiago Zelenay, William Vermi, Pierre Guermonprez, Eliane Piaggio, Julie Helft
+    </div><div class="citation_details">
+      Cell&nbsp; · &nbsp;01 Mar 2022
+    </div><div class="tags" data-link="http://0.0.0.0:4000/publications/"><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: single cell&quot;" class="tag" data-tooltip="Show items with the tag &quot;single cell&quot;">single cell</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: transcriptomics&quot;" class="tag" data-tooltip="Show items with the tag &quot;transcriptomics&quot;">transcriptomics</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2021">2021</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://www.science.org/doi/10.1126/sciimmunol.abe8219">
+        <img src="https://www.science.org/cms/asset/5f2ec23e-aac6-4643-b154-40bed2014a74/keyimage.gif" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="https://doi.org/10.1126/sciimmunol.abe8219" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://www.science.org/doi/10.1126/sciimmunol.abe8219">
+        In vivo genome-wide CRISPR screens identify SOCS1 as intrinsic checkpoint of CD4 <sup>+</sup> T <sub>H</sub> 1 cell response
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Aurélien Sutra Del Galy, Silvia Menegatti, Jaime Fuentealba, Francesca Lucibello, Laetitia Perrin, Julie Helft, Aurélie Darbois, Michael Saitakis, Jimena Tosello, Derek Rookhuizen, Marc Deloger, Pierre Gestraud, Gérard Socié, Sebastian Amigorena, Olivier Lantz, Laurie Menger
+    </div><div class="citation_details">
+      Science Immunology&nbsp; · &nbsp;24 Dec 2021
+    </div><div class="tags" data-link="http://0.0.0.0:4000/publications/"><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: highlights&quot;" class="tag" data-tooltip="Show items with the tag &quot;highlights&quot;">highlights</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: single cell&quot;" class="tag" data-tooltip="Show items with the tag &quot;single cell&quot;">single cell</a><a href="http://0.0.0.0:4000/publications/?search=&quot;tag: transcriptomics&quot;" class="tag" data-tooltip="Show items with the tag &quot;transcriptomics&quot;">transcriptomics</a></div><div class="citation_links"></div></div>
+</div>
+<h3 id="2020">2020</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://doi.org/g8x64j">
+        <img src="" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi:10.1016/bs.mie.2019.05.048" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://doi.org/g8x64j">
+        Methods to edit T cells for cancer immunotherapy
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Francesca Lucibello, Silvia Menegatti, Laurie Menger
+    </div><div class="citation_details">
+      Methods in Enzymology&nbsp; · &nbsp;01 Jan 2020
+    </div><div class="citation_links"></div></div>
+</div>
+<h3 id="2016">2016</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://aacrjournals.org/cancerres/article/76/8/2087/616796/TALEN-Mediated-Inactivation-of-PD-1-in-Tumor">
+        <img src="https://aacrjournals.org/view-large/figure/13294761/2087fig1.jpeg" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="https://doi.org/10.1158/0008-5472.CAN-15-3352" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://aacrjournals.org/cancerres/article/76/8/2087/616796/TALEN-Mediated-Inactivation-of-PD-1-in-Tumor">
+        TALEN-Mediated Inactivation of PD-1 in Tumor-Reactive Lymphocytes Promotes Intratumoral T-cell Persistence and Rejection of Established Tumors
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Laurie Menger, Anna Sledzinska, Katharina Bergerhoff, Frederick Arce Vargas, Julianne Smith, Laurent Poirot, Martin Pule, Javier Herrero, Karl S. Peggs, Sergio A. Quezada
+    </div><div class="citation_details">
+      Cancer Research&nbsp; · &nbsp;15 Apr 2016
+    </div><div class="citation_links"></div></div>
+</div>
+<h3 id="2015">2015</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://ashpublications.org/blood/article/126/26/2781/34783/TALENmediated-genetic-inactivation-of-the">
+        <img src="https://ashpublications.org/view-large/figure/7494804/2781f1.jpeg" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="https://doi.org/10.1182/blood-2015-08-664755" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://ashpublications.org/blood/article/126/26/2781/34783/TALENmediated-genetic-inactivation-of-the">
+        TALEN-mediated genetic inactivation of the glucocorticoid receptor in cytomegalovirus-specific T cells
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Laurie Menger, Agnes Gouble, Maria A. V. Marzolini, Annette Pachnio, Katharina Bergerhoff, Jake Y. Henry, Julianne Smith, Martin Pule, Paul Moss, Stanley R. Riddell, Sergio A. Quezada, Karl S. Peggs
+    </div><div class="citation_details">
+      Blood&nbsp; · &nbsp;24 Dec 2015
+    </div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://febs.onlinelibrary.wiley.com/doi/10.1016/j.molonc.2015.10.008">
+        <img src="" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="https://doi.org/10.1016/j.molonc.2015.10.008" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://febs.onlinelibrary.wiley.com/doi/10.1016/j.molonc.2015.10.008">
+        Negative immune checkpoints on T lymphocytes and their relevance to cancer immunotherapy
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Anna Śledzińska, Laurie Menger, Katharina Bergerhoff, Karl S. Peggs, Sergio A. Quezada
+    </div><div class="citation_details">
+      Molecular Oncology&nbsp; · &nbsp;01 Dec 2015
+    </div><div class="citation_links"></div></div>
+</div>
+<h3 id="2013">2013</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://doi.org/f5cfnt">
+        <img src="" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi:10.1016/j.cytogfr.2013.05.001" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://doi.org/f5cfnt">
+        Crosstalk between ER stress and immunogenic cell death
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Oliver Kepp, Laurie Menger, Erika Vacchelli, Clara Locher, Sandy Adjemian, Takahiro Yamazaki, Isabelle Martins, Abdul Qader Sukkurwala, Michael Michaud, Laura Senovilla, Lorenzo Galluzzi, Guido Kroemer, Laurence Zitvogel
+    </div><div class="citation_details">
+      Cytokine &amp; Growth Factor Reviews&nbsp; · &nbsp;01 Aug 2013
+    </div><div class="citation_links"></div></div>
+</div>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://doi.org/g8x64f">
+        <img src="" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi:10.4161/onci.23082" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://doi.org/g8x64f">
+        Trial watch
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Laurie Menger, Erika Vacchelli, Oliver Kepp, Alexander Eggermont, Eric Tartour, Laurence Zitvogel, Guido Kroemer, Lorenzo Galluzzi
+    </div><div class="citation_details">
+      OncoImmunology&nbsp; · &nbsp;01 Feb 2013
+    </div><div class="citation_links"></div></div>
+</div>
+<h3 id="2012">2012</h3>
+<div class="citation" data-style="rich"><div class="citation_image">
+      <a href="https://doi.org/gbbdjj">
+        <img src="" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" data-tooltip="doi:10.1126/scitranslmed.3003807" loading="lazy" alt="Citation thumbnail" />
+      </a>
+    </div><div class="citation_text"><div class="citation_title">
+      <a href="https://doi.org/gbbdjj">
+        Cardiac Glycosides Exert Anticancer Effects by Inducing Immunogenic Cell Death
+      </a>
+    </div><div class="citation_authors truncate" tabindex="0">
+      Laurie Menger, Erika Vacchelli, Sandy Adjemian, Isabelle Martins, Yuting Ma, Shensi Shen, Takahiro Yamazaki, Abdul Qader Sukkurwala, Mickaël Michaud, Grégoire Mignot, Frederic Schlemmer, Eric Sulpice, Clara Locher, Xavier Gidrol, François Ghiringhelli, Nazanine Modjtahedi, Lorenzo Galluzzi, Fabrice André, Laurence Zitvogel, Oliver Kepp, Guido Kroemer
+    </div><div class="citation_details">
+      Science Translational Medicine&nbsp; · &nbsp;18 Jul 2012
+    </div><div class="citation_links"></div></div>
+</div>
+
+:ET

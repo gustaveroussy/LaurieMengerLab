@@ -30,6 +30,13 @@ We're an interdisciplinary team of researchers who strive to be rigorous, reprod
   include list.html
   data="members"
   component="portrait"
+  filters="role: postdoc"
+%}
+
+{%
+  include list.html
+  data="members"
+  component="portrait"
   filters="role: phd"
 %}
 

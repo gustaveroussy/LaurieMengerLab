@@ -1,0 +1,14 @@
+---
+name: Saul DUBOIS
+image: images/team/Saul_Dubois.png
+description: Graduate student
+role: phd
+aliases:
+  - Saul DUBOIS
+links:
+  email: Saul.DUBOIS@gustaveroussy.fr
+---
+
+Saul Dubois is a PhD student affiliated with Paris-Saclay University in Laurie Menger's laboratory at the Gustave Roussy Institute. He obtained a Master's degree in biomolecular sciences from Paul Sabatier University in Toulouse. Throughout his academic training, he has gained research experience in cancer immunology, focusing particularly on the development of new therapeutic approaches and the study of the biological mechanisms underlying interactions between tumours and the immune system.
+
+Saul's doctoral research focuses on genome-wide CRISPR activation screens to identify new genetic targets that could improve T-cell-based therapies. Using functional genomics and T cell engineering, his work aims to discover strategies to improve the persistence and antitumour activity of T cells in the context of adoptive cell therapy.

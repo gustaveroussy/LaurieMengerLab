@@ -1,0 +1,115 @@
+I"ß<h1 id="the-menger-lab">The Menger Lab</h1>
+
+<p>Our team was the first in Europe to establish CRISPR-Cas9 screening in vivo in primary T cells, developing a functional pipeline for the unbiased and systematic characterization of T cell limiting factors in complex immunosuppressive environments. The team now integrates additional developments in synthetic biology using genome-wide CRISPR activation modification, editing of tumour-infiltrating lymphocytes, CAR combinatorial therapies and modulating epigenetic regulators of the antitumor immune response in vivo.</p>
+
+<div class="feature">
+  <a class="feature_image">
+    <img src="/images/home/laurie_menger.jpeg" loading="lazy" alt="" />
+  </a>
+  <div class="feature_text"><p class="feature_title">Dr. Laurie Menger</p>
+<p>Laurie is an INSERM researcher and young group leader of the Advanced-T cell therapy team (U1015) at Gustave Roussy (GR), specialized in Onco/Immunobiotechnology. She has built her career on the use of multidisciplinary approaches to conduct immunotherapeutic projects leading to translational development. In 2019, she obtained financial support from the Agence Nationale de la Recherche Jeune chercheur (ANRJCJC) Grant and in 2021 received an ATIP-Avenir (starting package, INSERM) and Gustave Roussy starting package. Her research is also feeding 2 Flagship medico-scientific programs, the precision medicine program (PRISM) and the Innovative Therapeutics emerging program.</p>
+
+<p class="center"><a class="link" href="/members/lmenger" data-icon="true" data-text="true" data-flip="true" data-style=""><i class="fas fa-arrow-right fa-lg "></i><span>Learn More</span></a></p>
+
+  </div>
+</div>
+
+<!-- section break -->
+<!-- section full -->
+<img
+  class="banner"
+  src="/images/home/carousel/labo_photo1_cropped.jpg"
+  loading="lazy"
+  alt="Banner image"
+/>
+
+<!-- section break -->
+<h1 id="highlights">Highlights</h1>
+
+<div class="feature">
+  <a class="feature_image">
+    <img src="/images/home/VtdLbwNS.jpeg" loading="lazy" alt="" />
+  </a>
+  <div class="feature_text"><p class="feature_title">Biotechnology</p>
+<p>We are developing the latest advances in T-cell engineering, genome-scale editing technologies, metabolic and single-cell profiling in a context of therapeutic adoptive transfer against cancer.</p>
+
+<div class="button-wrapper">
+    <a class="button" href="/publications" data-style="" data-flip="" aria-label="fas fa-arrow-right">
+      <i class="icon fas fa-arrow-right"></i>
+      
+        <span>See what we've published</span>
+      
+    </a>
+  </div>
+
+
+  </div>
+</div>
+
+<div class="feature" data-flip="true">
+  <a class="feature_image">
+    <img src="/images/home/mrHvlPRY.jpeg" loading="lazy" alt="" />
+  </a>
+  <div class="feature_text"><p class="feature_title">Cancer immunotherapy</p>
+<p>Our work focuses on the study of T cells biology in immunosuppressive environments through systematic and unbiased approaches to accelerate immunotherapeutic targets discovery. Our goal is to characterize the genes and essential parameters for the development of synthetic immunology providing a new class of effective, safe and affordable treatments for oncology.</p>
+
+<div class="button-wrapper">
+    <a class="button" href="/research" data-style="" data-flip="" aria-label="fas fa-arrow-right">
+      <i class="icon fas fa-arrow-right"></i>
+      
+        <span>See our highlighted resources</span>
+      
+    </a>
+  </div>
+
+
+  </div>
+</div>
+
+<div class="feature">
+  <a class="feature_image">
+    <img src="/images/home/nwDbPcKC.jpeg" loading="lazy" alt="" />
+  </a>
+  <div class="feature_text"><p class="feature_title">Biology + AI â†’ insight</p>
+<p>We use data science to answer important questions in biology and medicine.
+In all of our research, we prioritize transparency, rigor, and reproducibility.</p>
+
+<div class="button-wrapper">
+    <a class="button" href="/team" data-style="" data-flip="" aria-label="fas fa-arrow-right">
+      <i class="icon fas fa-arrow-right"></i>
+      
+        <span>Meet our team</span>
+      
+    </a>
+  </div>
+
+
+  </div>
+</div>
+
+<!-- section break -->
+
+<h1 id="our-research-group-is-funded-by">Our research group is funded by</h1>
+<!-- section break -->
+
+<div class="gallery" data-style="square" data-number="9"><a class="gallery_item">
+        <img src="/images/home/founding/Gustave-Roussy.jpg" loading="lazy" alt="" />
+      </a><a class="gallery_item">
+        <img src="/images/home/founding/logo-inserm.jpg" loading="lazy" alt="" />
+      </a><a class="gallery_item">
+        <img src="/images/home/founding/marie_curie.jpeg" loading="lazy" alt="" />
+      </a><a class="gallery_item">
+        <img src="/images/home/founding/ligue_contre_le_cancer.jpeg" loading="lazy" alt="" />
+      </a><a class="gallery_item">
+        <img src="/images/home/founding/atip.jpeg" loading="lazy" alt="" />
+      </a><a class="gallery_item">
+        <img src="/images/home/founding/logo_institut_national_du_cancer-400x400.png" loading="lazy" alt="" />
+      </a><a class="gallery_item">
+        <img src="/images/home/founding/u_paris_saclay.png" loading="lazy" alt="" />
+      </a><a class="gallery_item">
+        <img src="/images/home/founding/anr_logo.jpg" loading="lazy" alt="" />
+      </a><a class="gallery_item">
+        <img src="/images/home/founding/PKC_logo.png" loading="lazy" alt="" />
+      </a></div>
+
+:ET
