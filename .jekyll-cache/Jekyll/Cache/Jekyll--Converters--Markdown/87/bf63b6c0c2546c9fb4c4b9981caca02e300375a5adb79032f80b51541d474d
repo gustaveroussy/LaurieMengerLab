@@ -1,6 +1,6 @@
-I"<h1 id="current-opportunties"><i class="fas fa-microscope"></i>Current Opportunties</h1>
+I"d<h1 id="current-opportunties"><i class="fas fa-microscope"></i>Current Opportunties</h1>
 <!-- section break -->
-
+<p>The application is no longer available for the 2026 internship position.</p>
 <div class="feature">
   <a class="feature_image">
     <img src="/images/Travaux.jpg" loading="lazy" alt="" />
@@ -9,4 +9,5 @@
 
   </div>
 </div>
+
 :ET
