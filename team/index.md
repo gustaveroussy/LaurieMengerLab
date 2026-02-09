@@ -51,7 +51,7 @@ We're an interdisciplinary team of researchers who strive to be rigorous, reprod
   include list.html
   data="members"
   component="portrait"
-  filters="role: undergrad"
+  filters="role: ra"
 %}
 
 {%
@@ -65,9 +65,8 @@ We're an interdisciplinary team of researchers who strive to be rigorous, reprod
   include list.html
   data="members"
   component="portrait"
-  filters="role: ra"
+  filters="role: undergrad"
 %}
-
 ## Alumni
 
 {%
@@ -82,6 +81,14 @@ We're an interdisciplinary team of researchers who strive to be rigorous, reprod
 ## Some Pictures
 
 {% capture content %}
+
+{%
+  include figure.html
+  image="images/action/team_building_2026.jpg"
+  caption="Team building 2026"
+  link="team"
+  width="100%"
+%}
 
 {%
   include figure.html

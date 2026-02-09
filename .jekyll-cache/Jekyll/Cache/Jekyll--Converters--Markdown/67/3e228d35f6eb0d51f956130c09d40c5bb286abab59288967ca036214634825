@@ -1,0 +1,201 @@
+I"�<!-- section break -->
+
+<h1 id="team"><i class="fas fa-users"></i>Team</h1>
+
+<p>We’re an interdisciplinary team of researchers who strive to be rigorous, reproducible, and transparent. Our core values include learning from each other and celebrating the success of others.</p>
+
+<h2 id="current-lab-members">Current lab members</h2>
+<a href="/members/lmenger.html" class="portrait" style="--width: 150px"><div class="role" data-tooltip="Principal Investigator"><i class="fas fa-microscope"></i></div>
+<span class="portrait_image">
+    <img
+      src="/images/team/laurie_menger.jpeg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Laurie Menger, PhD"
+    >
+  </span><span class="portrait_name">
+      Laurie Menger, PhD
+    </span><span class="portrait_description">
+      PI
+    </span></a>
+
+<a href="/members/asutradelgaly.html" class="portrait" style="--width: 150px"><div class="role" data-tooltip="Physician"><i class="fas fa-user-md"></i></div>
+<span class="portrait_image">
+    <img
+      src="/images/team/A_sutraDelGaly.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Aurelien Sutra Del Galy, MD, PhD"
+    >
+  </span><span class="portrait_name">
+      Aurelien Sutra Del Galy, MD, PhD
+    </span><span class="portrait_description">
+      Physician
+    </span></a>
+
+<a href="/members/jhkang.html" class="portrait" style="--width: 150px"><div class="role" data-tooltip="Postdoctoral Researcher"><i class="fa-solid fa-glasses"></i></div>
+<span class="portrait_image">
+    <img
+      src="/images/team/Jinhong_Kang.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Jinhong Kang"
+    >
+  </span><span class="portrait_name">
+      Jinhong Kang
+    </span><span class="portrait_description">
+      Postdoctoral Researcher
+    </span></a>
+
+<a href="/members/asimon.html" class="portrait" style="--width: 150px"><div class="role" data-tooltip="PhD Student"><i class="fas fa-graduation-cap"></i></div>
+<span class="portrait_image">
+    <img
+      src="/images/team/Albane_Simon.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Albane Simon"
+    >
+  </span><span class="portrait_name">
+      Albane Simon
+    </span><span class="portrait_description">
+      Graduate student
+    </span></a>
+<a href="/members/cslater.html" class="portrait" style="--width: 150px"><div class="role" data-tooltip="PhD Student"><i class="fas fa-graduation-cap"></i></div>
+<span class="portrait_image">
+    <img
+      src="/images/team/Chloe_Slater.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Chloe Slater"
+    >
+  </span><span class="portrait_name">
+      Chloe Slater
+    </span><span class="portrait_description">
+      Graduate student
+    </span></a>
+<a href="/members/mlaprie_sentenac.html" class="portrait" style="--width: 150px"><div class="role" data-tooltip="PhD Student"><i class="fas fa-graduation-cap"></i></div>
+<span class="portrait_image">
+    <img
+      src="/images/team/marguerite-laprie-sentenac_crop.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Marguerite Laprie-Sentenac"
+    >
+  </span><span class="portrait_name">
+      Marguerite Laprie-Sentenac
+    </span><span class="portrait_description">
+      Graduate student
+    </span></a>
+<a href="/members/sdubois.html" class="portrait" style="--width: 150px"><div class="role" data-tooltip="PhD Student"><i class="fas fa-graduation-cap"></i></div>
+<span class="portrait_image">
+    <img
+      src="/images/team/Saul_Dubois.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Saul DUBOIS"
+    >
+  </span><span class="portrait_name">
+      Saul DUBOIS
+    </span><span class="portrait_description">
+      Graduate student
+    </span></a>
+
+<a href="/members/rcaudron.html" class="portrait" style="--width: 150px"><div class="role" data-tooltip="Undergraduate Student"><i class="fas fa-user-graduate"></i></div>
+<span class="portrait_image">
+    <img
+      src="/images/team/Romane_Caudron.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Romane Caudron"
+    >
+  </span><span class="portrait_name">
+      Romane Caudron
+    </span><span class="portrait_description">
+      Internship
+    </span></a>
+
+<a href="/members/cdong.html" class="portrait" style="--width: 150px"><div class="role" ><i class="fa-solid fa-code"></i></div>
+<span class="portrait_image">
+    <img
+      src="/images/team/Chuang_Dong2.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Chuang Dong"
+    >
+  </span><span class="portrait_name">
+      Chuang Dong
+    </span><span class="portrait_description">
+      Bioinformatics Specialist
+    </span></a>
+
+<a href="/members/jkandiah.html" class="portrait" style="--width: 150px"><div class="role" data-tooltip="Research Assistant"><i class="fas fa-glasses"></i></div>
+<span class="portrait_image">
+    <img
+      src="/images/team/Janany_Kandiah.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Janany Kandiah"
+    >
+  </span><span class="portrait_name">
+      Janany Kandiah
+    </span><span class="portrait_description">
+      Engineer
+    </span></a>
+<a href="/members/lperrin.html" class="portrait" style="--width: 150px"><div class="role" data-tooltip="Research Assistant"><i class="fas fa-glasses"></i></div>
+<span class="portrait_image">
+    <img
+      src="/images/team/Laetitia_Perrin.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Laetitia Perrin"
+    >
+  </span><span class="portrait_name">
+      Laetitia Perrin
+    </span><span class="portrait_description">
+      Engineer
+    </span></a>
+
+<h2 id="alumni">Alumni</h2>
+
+<a href="/members/klivran.html" class="portrait" style="--width: 150px">
+<span class="portrait_image">
+    <img
+      src="/images/team/Kathel_Livran.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+      loading="lazy"
+      alt="Kathel Livran"
+    >
+  </span><span class="portrait_name">
+      Kathel Livran
+    </span><span class="portrait_description">
+      Alumni
+    </span></a>
+
+<!-- section break -->
+
+<h2 id="some-pictures">Some Pictures</h2>
+
+<div class="grid" data-style="">
+  
+<figure class="figure">
+  <a href="/team" class="figure_image" style="width: 100%;">
+    <img src="/images/action/gastronomie_team.jpg" alt="Noël gastronomiques 2024 Paris" title="Noël gastronomiques 2024 Paris" style="width: 100%;" loading="lazy" />
+  </a><figcaption class="figure_caption">Noël gastronomiques 2024 Paris
+</figcaption></figure>
+
+<figure class="figure">
+  <a href="/team" class="figure_image" style="width: 100%;">
+    <img src="/images/action/photo_lab.png" alt="lab member" title="lab member" style="width: 100%;" loading="lazy" />
+  </a><figcaption class="figure_caption">lab member
+</figcaption></figure>
+
+<figure class="figure">
+  <a href="/team" class="figure_image" style="width: 100%;">
+    <img src="/images/action/old_photo.png" alt="lab member 2022-2023" title="lab member 2022-2023" style="width: 100%;" loading="lazy" />
+  </a><figcaption class="figure_caption">lab member 2022-2023
+</figcaption></figure>
+
+
+</div>
+
+:ET
