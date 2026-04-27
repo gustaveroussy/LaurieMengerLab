@@ -1,6 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY FROM SOURCES.YAML (AND ELSEWHERE)
 # See https://github.com/greenelab/lab-website-template/wiki/Citations
 
+- id: doi:10.1016/j.trecan.2026.03.002
+  title: Epigenetic, epitranscriptomic, and metabolic control of T cell exhaustion
+  authors:
+  - Chloe J. Slater
+  - Albane Simon
+  - Marguerite Laprie-Sentenac
+  - Laurie Menger
+  publisher: Trends in Cancer
+  date: '2026-04-01'
+  link: https://doi.org/hbzmxn
+  tags:
+  - CAR T cells
+  - T cell exhaustion
+  - T cell therapy
+  - epigenetics
+  - epitranscriptomics
+  - metabolism
+  _cache: 8e43cd523a45dca11e0c9fc830dc7ece9bf2c9d1a0040d498f39e5276115def7
 - id: https://doi.org/10.1038/s41551-024-01282-8
   title: "Ablation of FAS confers allogeneic CD3\u2013 CAR T cells with resistance\
     \ to rejection by T cells and natural killer cells"
