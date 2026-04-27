@@ -1,6 +1,15 @@
 ###################
 ## Laurie        ##
 ###################
+- id: doi:10.1016/j.trecan.2026.03.002
+  tags:
+  - CAR T cells
+  - T cell exhaustion
+  - T cell therapy
+  - epigenetics
+  - epitranscriptomics
+  - metabolism
+  
 - id: https://doi.org/10.1038/s41551-024-01282-8
   tags: 
   - highlights
@@ -52,14 +61,6 @@
 
 - id: https://doi.org/10.1182/blood-2015-08-664755
   image: https://ashpublications.org/view-large/figure/7494804/2781f1.jpeg
-- id: doi:10.1016/j.trecan.2026.03.002
-  tags:
-  - CAR T cells
-  - T cell exhaustion
-  - T cell therapy
-  - epigenetics
-  - epitranscriptomics
-  - metabolism
   
 - id: doi:10.1016/j.cytogfr.2013.05.001
 
