@@ -7,19 +7,25 @@
 
 .gallery {
   display: grid;
-  grid-gap: 40px;
+  grid-gap: $space-4;
   justify-content: center;
   align-items: center;
-  margin: 40px 0;
+  margin: $space-7 0;
   @include trim-v-margins;
 
   .gallery_item {
-    // box-shadow: $shadow;
+    display: block;
   }
 
+  // Funding logos: clean white tiles, grayscale at rest → color on hover
   &[data-style="square"] {
     .gallery_item {
       position: relative;
+      background: var(--paper);
+      border: 1px solid var(--border);
+      border-radius: $radius-md;
+      overflow: hidden;
+      transition: transform $base, box-shadow $base, border-color $base;
 
       &:before {
         content: "";
@@ -29,25 +35,38 @@
 
       img {
         position: absolute;
-        left: 0;
-        top: 0;
-        object-fit: cover;
-        min-width: 100%;
-        min-height: 100%;
+        inset: 12%;
+        width: 76%;
+        height: 76%;
+        object-fit: contain;
+        filter: grayscale(1);
+        opacity: 0.7;
+        transition: filter $base, opacity $base, transform $base;
+      }
+
+      &:hover {
+        transform: translateY(-3px);
+        box-shadow: $shadow-md;
+        border-color: var(--accent);
+
+        img {
+          filter: grayscale(0);
+          opacity: 1;
+        }
       }
     }
   }
 
   @media (min-width: $tablet) {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
   }
 
   @media (max-width: $tablet) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 
   @media (max-width: $phone) {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr 1fr !important;
   }
 
   &[data-number="2"] {

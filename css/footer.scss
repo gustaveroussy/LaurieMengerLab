@@ -6,19 +6,43 @@
 @import "mixins";
 
 footer {
+  position: relative;
+  isolation: isolate;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 20px;
-  padding: 40px;
-  color: $white;
-  background: $gray-800;
+  gap: $space-4;
+  padding: $space-8 $space-6;
+  color: $ink-200;
+  background: $ink-900;
   text-align: center;
-  box-shadow: $shadow;
+  overflow: hidden;
+
+  // soft cobalt glow
+  &:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: radial-gradient(50% 120% at 50% 0%, rgba($cobalt-500, 0.22), transparent 70%);
+    pointer-events: none;
+  }
+
+  // optional faint background image
+  &.background[style*="--background"]:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    background-image: var(--background);
+    background-size: cover;
+    background-position: 50% 50%;
+    opacity: 0.06;
+  }
 
   & * {
-    font-family: $sans;
+    font-family: var(--body);
   }
 
   .footer_row {
@@ -26,23 +50,22 @@ footer {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 10px;
-    line-height: $spacing + 0.3;
+    gap: $space-4;
+    line-height: var(--line);
 
     .link {
       margin: 0;
-    }
+      color: $ink-200;
+      font-weight: $medium;
 
-    &:hover .link {
-      opacity: 0.25;
-    }
-
-    .link:hover {
-      opacity: 1;
+      &:hover {
+        color: #fff;
+      }
     }
   }
 
   a {
     color: currentColor;
+    background-image: none;
   }
 }

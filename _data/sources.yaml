@@ -3,67 +3,156 @@
 ###################
 - id: doi:10.1016/j.trecan.2026.03.002
   tags:
-  - CAR T cells
-  - T cell exhaustion
-  - T cell therapy
-  - epigenetics
-  - epitranscriptomics
-  - metabolism
-  
+  - T-cell biology
+  - T-cell exhaustion
+  - Epigenetics
+
 - id: https://doi.org/10.1038/s41551-024-01282-8
-  tags: 
-  - highlights
-  - Antibodies
-  - Eukaryotic cell lines
-  - Animals and other organisms
-  - Flow cytometry
+  tags:
+  - CAR-T cells
+  - Cell engineering
+  - CRISPR screening
+
   image: https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41551-024-01282-8/MediaObjects/41551_2024_1282_Fig1_HTML.png
   
 - id: https://doi.org/10.1038/s43018-023-00570-7
   tags:
-  - Cancer
-  - Imaging the immune system
-  - Immunotherapy 
+  - CAR-T cells
+  - Tumor immunity
+
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43018-023-00570-7/MediaObjects/43018_2023_570_Fig2_HTML.png
   
 - id: doi:10.1016/j.xpro.2022.101922
   tags:
-  - highlights
-  - genomics
-  - tb 
+  - CRISPR screening
+  - Cell engineering
+
   image: https://ars.els-cdn.com/content/image/1-s2.0-S2666166722008024-fx1_lrg.jpg
   
 - id: https://doi.org/10.1136/jitc-2022-004807
   tags:
-  - single cell
-  - transcriptomics 
+  - Single-cell analysis
+  - Tumor immunity
+
   image: https://jitc.bmj.com/content/jitc/10/8/e004807/F1.medium.gif
   
 - id: doi:10.1016/j.cell.2022.02.021
   tags:
-  - single cell
-  - transcriptomics 
+  - Single-cell analysis
+  - Tumor immunity
+
   image: https://ars.els-cdn.com/content/image/1-s2.0-S009286742200201X-fx1_lrg.jpg
 
 - id: https://doi.org/10.1126/sciimmunol.abe8219
   tags:
-  - highlights
-  - single cell
-  - transcriptomics 
+  - CRISPR screening
+  - T-cell biology
+
   image: https://www.science.org/cms/asset/5f2ec23e-aac6-4643-b154-40bed2014a74/keyimage.gif
 
 - id: doi:10.1016/bs.mie.2019.05.048
+  tags:
+  - Cell engineering
+  - T-cell biology
 
 - id: https://doi.org/10.1158/0008-5472.CAN-15-3352
+  tags:
+  - Cell engineering
+  - Tumor immunity
+
   image: https://aacrjournals.org/view-large/figure/13294761/2087fig1.jpeg
 
 - id: https://doi.org/10.1016/j.molonc.2015.10.008
+  tags:
+  - T-cell biology
+  - Tumor immunity
 
 - id: https://doi.org/10.1182/blood-2015-08-664755
+  tags:
+  - Cell engineering
+  - T-cell biology
+
   image: https://ashpublications.org/view-large/figure/7494804/2781f1.jpeg
   
 - id: doi:10.1016/j.cytogfr.2013.05.001
+  tags:
+  - Cell death
 
 - id: doi:10.4161/onci.23082
+  tags:
+  - Cell death
 
 - id: doi:10.1126/scitranslmed.3003807
+  tags:
+  - Cell death
+  - Tumor immunity
+
+## Added from PubMed search "Menger L[Author]" (2026-09-21)
+- id: doi:10.1126/scitranslmed.adu9790
+  tags:
+  - CAR-T cells
+
+- id: doi:10.1158/2159-8290.CD-24-1230
+  tags:
+  - CAR-T cells
+  - Tumor immunity
+
+- id: doi:10.1158/2326-6066.CIR-22-0534
+  tags:
+  - Tumor immunity
+
+- id: doi:10.1084/jem.20181483
+  tags:
+  - T-cell biology
+
+- id: doi:10.4161/21624011.2014.955691
+  tags:
+  - Cell death
+
+- id: doi:10.1016/j.immuni.2013.03.003
+  tags:
+  - Cell death
+  - Tumor immunity
+
+- id: doi:10.1007/978-1-62703-383-1_4
+  tags:
+  - Cell death
+
+- id: doi:10.1007/978-1-62703-239-1_7
+  tags:
+  - Cell death
+
+- id: doi:10.4161/onci.21684
+  tags:
+  - Cell death
+
+- id: doi:10.4161/onci.18684
+  tags:
+  - Cell death
+
+- id: doi:10.4161/auto.19009
+  tags:
+  - Cell death
+  - Tumor immunity
+
+- id: doi:10.1126/science.1208347
+  tags:
+  - Cell death
+  - Tumor immunity
+
+- id: doi:10.1038/onc.2010.500
+  tags:
+  - Cell death
+
+- id: doi:10.1007/s10555-011-9273-4
+  tags:
+  - Cell death
+
+- id: doi:10.1111/j.1749-6632.2010.05740.x
+  tags:
+  - Cell death
+
+- id: doi:10.1158/1078-0432.CCR-09-2891
+  tags:
+  - Cell death
+

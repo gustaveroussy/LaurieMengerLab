@@ -1,0 +1,71 @@
+# Research themes shown as cards on /research, each with a detail section below.
+# Published work (CRISPR screening, FAS, SOCS1) lives on /publications.
+- id: pediatric-car-t
+  label: Pediatric cancers
+  title: Locus-specific engineering of sensing-adapting CAR-T cells for pediatric cancers
+  short: Off-the-shelf allogeneic CAR-T cells for neuroblastoma and DIPG.
+  members: Saul Dubois, Chan Jian Cheng, Louis Piqc
+  body:
+    - "Designing off-the-shelf allogeneic CAR-T therapies is critically important for pediatric cancers such as neuroblastoma and DIPG. While patients with low tumor burden receiving GD2-directed CAR-T cells have demonstrated impressive 3-year event-free survival rates approaching 60%, achieving this low burden typically requires intensive induction treatments, including high-dose chemotherapy or meta-iodobenzylguanidine (MIBG). These harsh regimens often induce severe lymphopenia, making autologous T cell collection for CAR-T manufacturing challenging or unfeasible."
+    - "To overcome this barrier, we propose locus-specific engineering of targets identified from our CRISPR knockout screen. This precision engineering strategy integrates synthetic rheostatic circuits that provide environmental sensing, converting negative immunosuppressive signals from the tumor microenvironment into positive outputs to enhance T cell fitness, while simultaneously providing crucial safety mechanisms for next-generation, off-the-shelf cell therapies."
+  funders:
+    - name: FLGE Oncoped
+    - name: Ligue Nationale contre le Cancer (Thérapies innovantes)
+      logo: images/home/founding/ligue_contre_le_cancer.jpeg
+  collab: Florent Ginhoux (Gustave Roussy), Claudia Pasqualini (Gustave Roussy), Suman Mitra (Lille)
+
+- id: mutant-idh
+  label: Tumor metabolism
+  title: Dissecting T cell functional barriers in the mIDH tumor microenvironment
+  short: Overcoming D-2HG-mediated immunosuppression of CD8+ T cells.
+  members: Chloe Slater (lead), Jinhong Kang, Laetitia Perrin
+  body:
+    - "Gain-of-function mutations in IDH1/2 generate the oncometabolite D-2-hydroxyglutarate (D-2HG), which drives immune evasion by suppressing CD8+ T cell function within the tumor microenvironment (TME). While pharmacological inhibition of IDH1 (e.g., AG120) provides initial metabolic rescue and promotes antitumor immunity, this approach is insufficient to sustain long-term T cell efficacy."
+    - "To identify genetic targets capable of overcoming D-2HG-mediated immunosuppression, we conducted a genome-wide CRISPR knockout screen in CD8+ T cells. This screen identified several D-2HG-specific negative regulators of T cell effector function, whose activity is being translated into human CAR-T cell models."
+  funders:
+    - name: Servier
+    - name: Ligue Nationale contre le Cancer
+      logo: images/home/founding/ligue_contre_le_cancer.jpeg
+  collab: Nabeel Bardeesy (Massachusetts General Hospital)
+
+- id: epigenetic-reprogramming
+  label: T-cell stemness
+  title: Safe and transient epigenetic reprogramming of T cell therapies
+  short: Durable stem-like imprinting without permanent genome editing.
+  members: Albane Simon (lead), Marguerite Laprie-Sentenac, Romane Caudron, Chuang Dong, Aurelien Sutra Del Galy
+  body:
+    - "A major limitation of current adoptive T cell therapies is terminal differentiation and exhaustion, which curtail in vivo persistence and long-term antitumor functionality. To overcome these barriers, we conducted genome-wide CRISPR knockout screens to identify novel intrinsic targets that restrain T cell differentiation. We discovered that the specific inhibition of these regulatory nodes blocks terminal differentiation and confers profound resistance to exhaustion."
+    - "Mechanistically, targeting these nodes induces a durable \"stem-like\" epigenetic imprinting state that reprograms the T cell landscape, resulting in significantly enhanced persistence and sustained effector functionality under chronic antigen exposure and immunosuppressive microenvironmental stress."
+    - "To ensure the clinical safety and translatability of this approach, we have developed a transient strategy to deliver this epigenetic reprogramming. By avoiding permanent genomic editing, this transient modulation mitigates the risks of uncontrolled proliferation or permanent loss of key regulatory checkpoints, while establishing the beneficial epigenetic memory required for durable therapeutic efficacy. This approach provides a safe, next-generation platform for manufacturing persistent, exhaustion-resistant T cell therapies."
+  funders:
+    - name: ATIP-Avenir 2022
+      logo: images/home/founding/atip.jpeg
+    - name: ANR JCJC
+      logo: images/home/founding/anr_logo.jpg
+    - name: Fondation Gustave Roussy
+      logo: images/home/founding/Gustave-Roussy.jpg
+    - name: Ligue contre le Cancer (Val-de-Marne)
+      logo: images/home/founding/ligue_contre_le_cancer.jpeg
+
+- id: cell-attack
+  label: Academic manufacturing
+  title: Cell ATTACK — academic CAR-T production
+  short: Academic manufacturing of CAR-T cells at Gustave Roussy.
+  # ponytail: description still to be provided by Laurie
+  members: Aurelien Sutra Del Galy
+  funders:
+    - name: Fondation Gustave Roussy
+      logo: images/home/founding/Gustave-Roussy.jpg
+  collab: Camille Bigenwald, Cristina Castilla Llorente
+
+- id: in-vivo-car-t
+  label: Fibrosis & autoimmunity
+  title: In vivo CAR-T for autoimmune diseases
+  short: Anti-fibrotic CAR-T cells generated directly in the patient with LNP-delivered mRNA.
+  body:
+    - "Fibrosis is a severe, life-limiting complication in diseases such as Duchenne Muscular Dystrophy (DMD) and Systemic Sclerosis (SSc), for which no specific treatments currently exist. We propose repurposing Chimeric Antigen Receptor (CAR) cell therapy to target fibrosis. Preclinical models demonstrate that FAP-specific CAR-T cells can mitigate pathological extracellular matrix deposition and improve organ function, offering a promising therapeutic avenue in non-tumor environments."
+    - "To overcome the logistical complexity, high costs, and delays associated with conventional ex vivo CAR-T manufacturing, this project aims to develop an innovative in vivo reprogramming strategy. By using optimized lipid nanoparticle (LNP) technology to deliver CAR-encoding modified RNA directly to the host, we intend to generate transient, anti-fibrotic CAR-T cells directly within the patient, paving the way for a scalable, off-the-shelf solution for fibrotic diseases."
+  funders:
+    - name: VivoCARFIB (ANR AAPG 2025)
+      logo: images/home/founding/anr_logo.jpg
+  collab: Philippe Menasché (HEGP), Jérôme Avouac (Cochin)

@@ -1,28 +1,131 @@
-// colors for links, tags, etc.
-// see palettes.scss for available colors
-$accent: $indigo-700;
-$light-accent: $light-blue-700;
-$dark-accent: $blue-800;
+// =============================================================
+//  MENGER LAB — Design System "Clinical Precision" (2026)
+//  Light, crisp, single cobalt accent, all sans-serif.
+// =============================================================
 
-// font types
-// also see /_includes/fonts.html to change fonts
-$serif: "Georgia", serif; // font name, fallback font type Lora, Georgia
-$sans: "Poppins", sans-serif;
-$mono: "Cousine", monospace;
+@import "palettes";
+
+// -------------------------------------------------------------
+//  BRAND PALETTE
+// -------------------------------------------------------------
+
+// Cobalt — the single accent
+$cobalt-50:  #eef4ff;
+$cobalt-100: #dbe6ff;
+$cobalt-200: #bccfff;
+$cobalt-300: #8eaeff;
+$cobalt-400: #5b82fb;
+$cobalt-500: #2563eb; // primary accent
+$cobalt-600: #1d4ed8;
+$cobalt-700: #1e40af;
+$cobalt-800: #1e3a8a;
+$cobalt-900: #172554;
+
+// Ink / neutrals (cool slate)
+$ink-900: #0f172a; // headings / strong text
+$ink-800: #1e293b;
+$ink-700: #334155; // body text
+$ink-600: #475569;
+$ink-500: #64748b; // muted
+$ink-400: #94a3b8;
+$ink-300: #cbd5e1; // borders strong
+$ink-200: #e2e8f0; // borders
+$ink-100: #f1f5f9; // tinted surface
+$ink-50:  #f8fafc; // subtle surface
+$paper:   #ffffff; // page background
+
+// -------------------------------------------------------------
+//  SEMANTIC ALIASES (used by component partials)
+// -------------------------------------------------------------
+$accent:        $cobalt-500;
+$accent-hover:  $cobalt-600;
+$accent-soft:   $cobalt-50;
+$light-accent:  $cobalt-400;
+$dark-accent:   $cobalt-700;
+
+// -------------------------------------------------------------
+//  TYPOGRAPHY
+//  Inter (body/UI) + Inter Tight (display). See _includes/fonts.html
+// -------------------------------------------------------------
+$sans:    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$display: "Inter Tight", "Inter", -apple-system, sans-serif;
+$serif:   $display; // legacy alias — keep components from breaking
+$mono:    "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+$light:       300;
+$regular:     400;
+$medium:      500;
+$semibold:    600;
+$bold:        700;
+$extrabold:   800;
+
+// Fluid type scale (clamp): min @ 360px → max @ 1240px
+$step--1: unquote("clamp(0.83rem, 0.80rem + 0.13vw, 0.89rem)");
+$step-0:  unquote("clamp(1.00rem, 0.95rem + 0.22vw, 1.13rem)");
+$step-1:  unquote("clamp(1.20rem, 1.12rem + 0.36vw, 1.42rem)");
+$step-2:  unquote("clamp(1.44rem, 1.31rem + 0.57vw, 1.80rem)");
+$step-3:  unquote("clamp(1.73rem, 1.53rem + 0.88vw, 2.27rem)");
+$step-4:  unquote("clamp(2.07rem, 1.78rem + 1.31vw, 2.87rem)");
+$step-5:  unquote("clamp(2.49rem, 2.05rem + 1.93vw, 3.62rem)");
+$step-6:  unquote("clamp(2.99rem, 2.36rem + 2.78vw, 4.57rem)");
+$step-7:  unquote("clamp(3.58rem, 2.69rem + 3.96vw, 5.77rem)");
 
 // line spacing
-$spacing: 1.5;
+$spacing: 1.65;   // body line-height
+$compact: 1.15;   // headings line-height
+$tight:   1.05;
 
-// transitions
-$fast: 0.25s ease;
-$slow: 0.5s ease;
+// -------------------------------------------------------------
+//  SPACING SCALE (4-based)
+// -------------------------------------------------------------
+$space-1:  4px;
+$space-2:  8px;
+$space-3:  12px;
+$space-4:  16px;
+$space-5:  24px;
+$space-6:  32px;
+$space-7:  48px;
+$space-8:  64px;
+$space-9:  96px;
+$space-10: 128px;
 
-// effects
-$shadow: 0 0 5px 0 #00000030;
-$rounded: 5px;
+// -------------------------------------------------------------
+//  RADIUS / SHADOWS / MOTION
+// -------------------------------------------------------------
+$radius-sm:   8px;
+$radius-md:   14px;
+$radius-lg:   22px;
+$radius-xl:   32px;
+$radius-pill: 999px;
+$rounded:     $radius-md; // legacy alias
 
-// screen widths
-// used by various components
-$page: 900px; // max-width of the main page column
-$tablet: 800px; // screen width cutoff point for tablets
-$phone: 500px; // screen width cutoff point for phones
+$shadow-xs: 0 1px 2px rgba($ink-900, 0.06);
+$shadow-sm: 0 1px 3px rgba($ink-900, 0.08), 0 1px 2px rgba($ink-900, 0.04);
+$shadow-md: 0 4px 12px rgba($ink-900, 0.08), 0 2px 4px rgba($ink-900, 0.04);
+$shadow-lg: 0 12px 28px rgba($ink-900, 0.10), 0 6px 12px rgba($ink-900, 0.05);
+$shadow-xl: 0 28px 60px rgba($ink-900, 0.14), 0 12px 24px rgba($ink-900, 0.06);
+$shadow-glow: 0 8px 30px rgba($cobalt-500, 0.28);
+$shadow: $shadow-md; // legacy alias
+
+$fast:   180ms cubic-bezier(0.4, 0, 0.2, 1);
+$base:   280ms cubic-bezier(0.4, 0, 0.2, 1);
+$slow:   480ms cubic-bezier(0.4, 0, 0.2, 1);
+$spring: 420ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+// Gradients
+$gradient-accent: linear-gradient(135deg, $cobalt-500, $cobalt-400);
+$gradient-soft:   linear-gradient(180deg, $ink-50, $paper);
+
+// -------------------------------------------------------------
+//  LAYOUT WIDTHS
+// -------------------------------------------------------------
+$page:   1120px;  // max-width of main column
+$wide:   1320px;  // full-bleed-ish content
+$tablet: 900px;
+$phone:  600px;
+
+// -------------------------------------------------------------
+//  NOTE: runtime CSS custom properties (:root + [data-dark])
+//  are emitted once in body.scss to avoid duplication, since
+//  every component partial @imports this file.
+// -------------------------------------------------------------

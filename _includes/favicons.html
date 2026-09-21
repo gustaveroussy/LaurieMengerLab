@@ -4,6 +4,7 @@
   sizes="180x180"
   href="{{ 'favicons/ios.png' | relative_url }}"
 />
+<link rel="icon" type="image/svg+xml" href="{{ 'images/logo_lm_mark.svg' | relative_url }}" />
 <link
   rel="icon"
   type="image/png"
@@ -15,9 +16,9 @@
 <!-- https://metatags.io/ -->
 <meta
   property="og:image"
-  content="{{ 'favicons/share-thumbnail.png' | relative_url }}"
+  content="{{ '/favicons/share-thumbnail.png' | prepend: site.url }}"
 />
 <meta
   property="twitter:image"
-  content="{{ 'favicons/share-thumbnail.png' | relative_url }}"
+  content="{{ '/favicons/share-thumbnail.png' | prepend: site.url }}"
 />

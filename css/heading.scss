@@ -8,38 +8,64 @@
 h1,
 h2,
 h3,
-h4 {
-  font-family: $sans;
-  font-weight: $medium;
-  line-height: $spacing - 0.3;
-  margin: 40px 0 20px 0;
+h4,
+h5,
+h6 {
+  font-family: var(--display);
+  color: var(--heading);
+  font-weight: $bold;
+  line-height: var(--compact);
+  letter-spacing: -0.02em;
+  margin: $space-7 0 $space-4 0;
   @include trim-v-margins;
-  padding: 10px 0;
+  text-wrap: balance;
 }
 
 h1 {
-  font-size: 1.4rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  text-align: center;
+  font-size: $step-5;
+  font-weight: $extrabold;
+  letter-spacing: -0.035em;
 
   & + p {
-    margin-top: 40px;
+    margin-top: $space-4;
   }
 }
 
 h2 {
-  font-size: 1.3rem;
-  letter-spacing: 1px;
-  text-align: center;
+  font-size: $step-4;
+  letter-spacing: -0.03em;
 }
 
 h3 {
-  font-size: 1.2rem;
-  text-align: center;
+  font-size: $step-2;
 }
 
 h4 {
-  font-size: 1rem;
-  text-align: left;
+  font-size: $step-1;
+  font-weight: $semibold;
+}
+
+h5 {
+  font-size: $step-0;
+  font-weight: $semibold;
+}
+
+h6 {
+  font-size: $step--1;
+  font-weight: $semibold;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+}
+
+// Eyebrow / kicker label above a heading
+.eyebrow {
+  display: inline-block;
+  font-family: var(--body);
+  font-size: $step--1;
+  font-weight: $semibold;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: $space-3;
 }

@@ -1,15 +1,126 @@
 ---
 ---
 
+@import "palettes";
+@import "theme";
+@import "mixins";
+
+// -------------------------------------------------------------
+//  RUNTIME TOKENS (emitted once — body.scss compiles to body.css)
+// -------------------------------------------------------------
+:root {
+  --paper:     #{$paper};
+  --surface:   #{$ink-50};
+  --surface-2: #{$ink-100};
+  --text:      #{$ink-700};
+  --heading:   #{$ink-900};
+  --muted:     #{$ink-500};
+  --border:    #{$ink-200};
+  --border-strong: #{$ink-300};
+  --accent:        #{$cobalt-500};
+  --accent-hover:  #{$cobalt-600};
+  --accent-soft:   #{$cobalt-50};
+  --background: var(--paper);
+
+  --body:    #{$sans};
+  --display: #{$display};
+  --mono:    #{$mono};
+
+  --line:    #{$spacing};
+  --compact: #{$compact};
+
+  --shadow-card: #{$shadow-md};
+  --page: #{$page};
+}
+
+// Dark sections / surfaces invert the runtime tokens
+[data-dark="true"] {
+  --paper:     #{$ink-900};
+  --surface:   #{$ink-800};
+  --surface-2: #{$ink-700};
+  --text:      #{$ink-200};
+  --heading:   #{$paper};
+  --muted:     #{$ink-400};
+  --border:        rgba(255, 255, 255, 0.12);
+  --border-strong: rgba(255, 255, 255, 0.20);
+  --accent:        #{$cobalt-400};
+  --accent-hover:  #{$cobalt-300};
+  --accent-soft:   rgba(91, 130, 251, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background: var(--background);
+  background: var(--paper);
   color: var(--text);
   font-family: var(--body);
+  font-size: $step-0;
+  font-weight: $regular;
+  line-height: var(--line);
   text-align: left;
-  line-height: var(--compact);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "cv05" 1, "ss01" 1, "calt" 1; // refined Inter glyphs
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+::selection {
+  background: $cobalt-500;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  border: none;
+  height: 1px;
+  background: var(--border);
+  margin: $space-7 0;
+}
+
+// Custom scrollbar (subtle)
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $ink-300 transparent;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: $ink-300;
+  border-radius: $radius-pill;
+  border: 3px solid var(--paper);
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: $ink-400;
+}
+
+// Respect reduced motion
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

@@ -17,7 +17,7 @@ links:
   home-page: https://www.gustaveroussy.fr/en/advanced-t-cell-therapy
 ---
 
-Laurie Menger is an INSERM researcher and young group leader of the Advanced-T cell therapy team (U1015) at Gustave Roussy (GR), specialized in Onco/Immunobiotechnology. She has built her career on the use of multidisciplinary approaches to conduct immunotherapeutic projects leading to translational development.
+Laurie Menger is an INSERM researcher and young group leader of the Advanced-T cell therapy team (U1356) at Gustave Roussy (GR), specialized in Onco/Immunobiotechnology. She has built her career on the use of multidisciplinary approaches to conduct immunotherapeutic projects leading to translational development.
 
 During her PhD at Gustave Roussy, she developed high-throughput videomicroscopy screening for discovering immunogenic cell death inducers among FDA-approved drugs in Guido Kroemer’s lab. At UCL cancer Institute, she set up clinically relevant protocols to inactivate immunosuppressive molecules and strengthen adoptive T cells therapies with Sergio Quezada and Karl Peggs. In 2015, she was awarded with the John Goldman prize (Blood and Marrow transplantation British Society, UK). At Institut Curie, thanks to the prestigious MSCA fellowship, she established genome-wide CRISPR-Cas9 editing of CD4 T-cell to better understand their specific regulation with Olivier Lantz. In 2019, she obtained financial support from the Agence Nationale de la Recherche Jeune chercheur (ANRJCJC) Grant and in 2021 received an ATIP-Avenir (starting package, INSERM) and Gustave Roussy starting package.
 

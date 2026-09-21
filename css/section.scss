@@ -5,44 +5,34 @@
 @import "theme";
 @import "mixins";
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  min-height: 100vh;
-}
-
-body {
+main {
   display: flex;
   flex-direction: column;
-  font-family: $serif;
+  flex-grow: 1;
+}
 
-  main {
-    display: flex;
-    flex-direction: column;
+section {
+  box-sizing: content-box;
+  padding: $space-9 $space-6; // fallback
+  padding: $space-9 Max(#{$space-6}, calc((100% - #{$page}) / 2));
+  text-align: left;
+
+  &[data-full="true"] {
+    padding: 0;
+  }
+
+  &:last-of-type {
     flex-grow: 1;
   }
 
-  section {
-    box-sizing: content-box;
-    padding: 60px 40px; // fallback
-    padding: 60px Max(40px, calc((100% - #{$page}) / 2));
+  // Center utility (from {:.center}) still works inside sections
+  .center {
     text-align: center;
-
-    &[data-full="true"] {
-      padding: 0;
-    }
   }
+}
 
-  section:nth-of-type(even) {
-    background: $white;
-  }
-
-  section:nth-of-type(even) {
-    background: $gray-50;
-  }
-
-  section:last-of-type {
-    flex-grow: 1;
-  }
+// Alternating light surfaces for rhythm.
+// Dark sections (data-dark="true") are handled in background.scss.
+section:not([data-dark="true"]):nth-of-type(even) {
+  background: var(--surface);
 }

@@ -1,10 +1,10 @@
 ---
-name: Saul DUBOIS
+name: Saul Dubois
 image: images/team/Saul_Dubois.png
-description: Graduate student
+description: PhD student
 role: phd
 aliases:
-  - Saul DUBOIS
+  - Saul Dubois
 links:
   email: Saul.DUBOIS@gustaveroussy.fr
 ---

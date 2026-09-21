@@ -1,7 +1,7 @@
 ---
 name: Chloe Slater
 image: images/team/Chloe_Slater.jpg
-description: Graduate student
+description: PhD student
 role: phd
 aliases:
   - Chloe Slater

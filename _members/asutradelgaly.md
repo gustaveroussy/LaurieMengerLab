@@ -1,6 +1,6 @@
 ---
 name: Aurelien Sutra Del Galy, MD, PhD
-image: images/team/A_sutraDelGaly.jpg
+image: images/team/A_SutraDelGaly_2025.jpg
 description: Physician
 role: md
 aliases:

@@ -1,4 +1,5 @@
 ---
+description: "Contact the Menger Lab (Advanced T-cell Therapy team, INSERM U1356) at Gustave Roussy, Villejuif, France."
 title: Contact
 nav:
   order: 5
@@ -7,7 +8,7 @@ nav:
 
 # <i class="fas fa-envelope"></i>Contact
 
-Our lab is part of the [National Institute of Health and Medical Research](https://www.inserm.fr/)'s [Tumour Immunology and anti-cancer immunotherapy](https://www.gustaveroussy.fr/node/2293) unit and [Gustave Roussy institute](https://www.gustaveroussy.fr/). We are located on the 2th Floor of B2M (Bâtiment de Médecine Moléculaire).
+Our lab, the [Advanced T-cell Therapy team](https://www.gustaveroussy.fr/en/advanced-t-cell-therapy), is part of the [National Institute of Health and Medical Research](https://www.inserm.fr/) (INSERM U1356) and [Gustave Roussy institute](https://www.gustaveroussy.fr/). We are located on the 2nd Floor of B2M (Bâtiment de Médecine Moléculaire).
 
 {%
   include link.html

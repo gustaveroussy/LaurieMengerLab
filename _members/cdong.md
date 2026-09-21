@@ -1,8 +1,8 @@
 ---
 name: Chuang Dong
 image: images/team/Chuang_Dong2.jpg
-description: Bioinformatics Specialist
-role: programmer
+description: Alumni
+role: alumni
 aliases:
   - Chuang Dong
   - C Dong

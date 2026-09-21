@@ -15,21 +15,28 @@
 
 {% assign title = title | join: " | " %}
 
+{% if page.collection == "members" %}
+  {% capture description %}{{ page.name }}, {{ page.description }} in the Menger Lab (Advanced T-cell Therapy, Gustave Roussy, INSERM U1356).{% endcapture %}
+{% else %}
+  {% assign description = page.description | default: site.description %}
+{% endif %}
+
 <title>{{ title }}</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <!-- https://metatags.io/ -->
 <meta name="title" content="{{ title }}" />
-<meta name="description" content="{{ page.description | default: site.description }}" />
+<meta name="description" content="{{ description | strip }}" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="{{ site.location }}" />
+<link rel="canonical" href="{{ page.url | prepend: site.url }}" />
+<meta property="og:url" content="{{ page.url | prepend: site.url }}" />
 <meta property="og:title" content="{{ title }}" />
-<meta property="og:description" content="{{ page.description | default: site.description }}" />
+<meta property="og:description" content="{{ description | strip }}" />
 <meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="{{ site.location }}" />
+<meta property="twitter:url" content="{{ page.url | prepend: site.url }}" />
 <meta property="twitter:title" content="{{ title }}" />
-<meta property="twitter:description" content="{{ page.description | default: site.description }}" />
+<meta property="twitter:description" content="{{ description | strip }}" />
 
 <!-- RSS -->
 <link

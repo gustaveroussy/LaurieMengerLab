@@ -1,8 +1,8 @@
 ---
 name: Janany Kandiah
 image: images/team/Janany_Kandiah.png
-description: Engineer
-role: ra
+description: Alumni
+role: alumni
 aliases:
   - Janany Kandiah
   - J Kandiah

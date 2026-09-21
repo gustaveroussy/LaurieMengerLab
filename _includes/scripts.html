@@ -9,6 +9,6 @@
 <!-- site-wide javascript scripts -->
 {% for file in site.static_files %}
   {%- if file.path contains "/js" -%}
-    <script src="{{ file.path | relative_url }}" defer></script>
+    <script src="{{ file.path | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
   {% endif -%}
 {% endfor %}

@@ -6,104 +6,109 @@
 @import "mixins";
 
 header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 30px;
-  color: $white;
-  background: $gray-800;
-  box-shadow: $shadow;
+  gap: $space-5;
+  padding: $space-4 $space-6;
+  background: rgba(255, 255, 255, 0.78);
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  border-bottom: 1px solid var(--border);
+  color: var(--heading);
 
   & * {
-    font-family: $sans;
+    font-family: var(--body);
   }
 
+  // ---- Logotype ----
   .logo_row {
     display: inline-flex;
-    justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: $space-3;
+    text-decoration: none;
+    background-image: none;
+    color: var(--heading);
 
     .logo {
-      max-width: 100%;
-      height: 50px;
+      height: 52px;
+      width: auto;
+      flex: none;
     }
 
     .logo_text {
       display: flex;
-      justify-content: flex-start;
       flex-direction: column;
-      gap: 5px;
-      line-height: $spacing - 0.3;
+      gap: 1px;
+      line-height: 1.1;
 
       .logo_title {
-        font-size: 1.5rem;
+        font-family: var(--display);
+        font-size: $step-1;
+        font-weight: $extrabold;
+        letter-spacing: -0.03em;
+        color: var(--heading);
       }
 
       .logo_subtitle {
-        font-size: 0.9rem;
-        font-style: italic;
-        color: $gray-500;
+        font-size: $step--1;
+        font-style: normal;
+        font-weight: $medium;
+        color: var(--muted);
       }
     }
   }
 
+  // ---- Navigation ----
   .nav_row {
     display: inline-flex;
-    justify-content: center;
     align-items: center;
-    gap: 15px;
-    font-weight: $regular;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    gap: $space-2;
 
     .link {
       margin: 0;
-      font-size: 1rem;
-    }
+      padding: $space-2 $space-3;
+      border-radius: $radius-pill;
+      font-size: $step-0;
+      font-weight: $medium;
+      color: var(--text);
+      background-image: none;
+      transition: color $fast, background $fast;
 
-    &:hover .link {
-      opacity: 0.25;
-    }
-
-    .link:hover {
-      opacity: 1;
+      &:hover {
+        color: var(--accent);
+        background: var(--accent-soft);
+      }
     }
   }
 
   a {
     color: currentColor;
     text-decoration: none;
+    background-image: none;
   }
 
-  // screen width where nav bar wraps to under logo
-  // adjust based on width of your lab name and nav bar
+  // nav bar wraps under logo on narrow screens
   @media (max-width: 1000px) {
+    padding: $space-3 $space-5;
+  }
+
+  @media (max-width: 700px) {
     flex-direction: column;
     align-items: stretch;
-  }
+    gap: $space-3;
 
-  // screen width where logo and nav bar go from horizontal to vertical
-  // adjust based on width of your lab name and nav bar
-  @media (max-width: 700px) {
     .logo_row {
-      flex-direction: column;
-
-      .logo_text {
-        text-align: center;
-        align-items: center;
-      }
+      justify-content: center;
     }
 
     .nav_row {
-      flex-direction: column;
+      flex-wrap: wrap;
       justify-content: center;
-
-      .link {
-        width: 100%;
-      }
     }
   }
 }

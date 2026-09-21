@@ -1,55 +1,31 @@
 ---
 title: Research
+description: "Current research of the Menger Lab at Gustave Roussy: engineered CAR-T cells for pediatric cancers, mIDH tumors, epigenetic reprogramming, academic CAR-T production and in vivo CAR-T for fibrosis."
 nav:
   order: 1
   tooltip: What we study
 ---
 
-# <i class="fas fa-microscope"></i>Research
+<div class="page_intro research_intro_header"><span class="eyebrow">Our research · Advanced T-cell Therapy</span><h1>Understand T cells.<br>Rethink their possibilities.</h1><p class="lead">We investigate what limits T-cell responses and how to overcome those barriers. Our work connects functional genomics, immune regulation and the engineering of cell therapies against cancer.</p></div>
+
+<div class="theme_grid" aria-label="Research themes">
+{% for theme in site.data.research_themes %}<a class="theme_card" href="#{{ theme.id }}"><span class="theme_badge" aria-hidden="true">↗</span><span class="theme_number">{{ theme.label }}</span><h3>{{ theme.title }}</h3><p>{{ theme.short }}</p>{% if theme.members %}<span class="theme_members">{{ theme.members }}</span>{% endif %}</a>
+{% endfor %}</div>
 
 {% include section.html %}
 
-## Somes Projects
+<div class="research_approach"><div><span class="eyebrow">From a question to a target</span><h2>A functional view<br>of immunity.</h2><p>Rather than studying one candidate at a time, genome-wide screens let us investigate many genes together and identify the mechanisms that shape T-cell behavior in vivo.</p></div><ol class="research_pipeline"><li><strong>Perturb</strong><span>Use CRISPR libraries to disrupt genes in primary T cells.</span></li><li><strong>Observe</strong><span>Study how the edited cells behave during an immune response.</span></li><li><strong>Investigate</strong><span>Examine candidate regulators and their potential for T-cell engineering.</span></li></ol></div>
 
-{% capture text %}
-Allogeneic chimaeric antigen receptor T cells (allo-CAR T cells) derived from healthy donors could provide rapid access to standardized and affordable batches of therapeutic cells if their rejection by the host’s immune system is avoided. Here, by means of an in vivo genome-wide CRISPR knockout screen, we show that the deletion of Fas or B2m in allo- T cells increases their survival in immunocompetent mice.
-<br>
-
-{:.center}
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/research/thematic_1_update.jpg"
-  headline="Experience-dependent plasticity in visual circuits"
-  text=text
-%}
-
-{% capture text %}
-In vivo genome-wide CRISPR screens in primary T cells allow the systematic and unbiased identification of non-redundant regulatory mechanisms shaping immune responses. Here, we present an optimized protocol for efficient generation of a pool of genome-wide inactivated Cas9-expressing T cells using a retroviral library of sgRNA.
-<br>
-
-{:.center}
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/research/thematic_2.jpg"
-  headline="Neural interfaces for biasing plasticity"
-  text=text
-%}
-
-{% capture text %}
-Using genome-wide CRISPR-Cas9 screens and an in vivo system modeling of antigen-experienced CD4+ T cell recruitment and proliferation during a localized immune response, we identified suppressor of cytokine signaling 1 (SOCS1) as a major nonredundant checkpoint imposing a brake on CD4+ T cell proliferation.
-<br>
-
-{:.center}
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/research/thematic_3.jpg"
-  headline="Science Immunology"
-  text=text
-%}
+{% for theme in site.data.research_themes %}
 {% include section.html %}
+
+<div class="research_axis" id="{{ theme.id }}">
+<div class="research_axis_header"><div><span class="eyebrow">{{ theme.label }}</span><h2>{{ theme.title }}</h2></div><p class="research_question">{{ theme.short }}</p></div>
+{% if theme.body %}<div class="research_axis_copy">{% for paragraph in theme.body %}<p>{{ paragraph }}</p>{% endfor %}</div>{% endif %}
+<dl class="theme_facts">{% if theme.members %}<div><dt>Team</dt><dd>{{ theme.members }}</dd></div>{% endif %}{% if theme.funders %}<div><dt>Funding</dt><dd><ul class="theme_funders">{% for funder in theme.funders %}<li>{% if funder.logo %}<img src="{{ funder.logo | relative_url }}" alt="" loading="lazy">{% endif %}<span>{{ funder.name }}</span></li>{% endfor %}</ul></dd></div>{% endif %}{% if theme.collab %}<div><dt>Collaborations</dt><dd>{{ theme.collab }}</dd></div>{% endif %}</dl>
+</div>
+{% endfor %}
+
+{% include section.html %}
+
+<div class="research_outlook"><span class="eyebrow">Continuing the investigation</span><h2>New questions at the intersection<br>of biology and engineering.</h2><p>Our broader interests include epigenetic and epitranscriptomic regulation, T-cell exhaustion and synthetic immunology. Discover the papers behind our work or get in touch to discuss a scientific collaboration.</p><div><a class="button" href="{{ '/publications/' | relative_url }}">Explore our publications ↗</a><a href="{{ '/contact/' | relative_url }}">Discuss a collaboration ↗</a></div></div>

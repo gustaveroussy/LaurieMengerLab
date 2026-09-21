@@ -5,23 +5,83 @@
 @import "theme";
 @import "mixins";
 
+.button-wrapper {
+  display: inline-flex;
+  margin: $space-2 $space-2 $space-2 0;
+}
+
+// Primary CTA — solid cobalt pill
+.button,
 button {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  max-width: calc(100% - 10px - 10px);
-  min-height: 40px;
+  gap: $space-2;
+  max-width: 100%;
+  min-height: 46px;
   margin: 0;
-  padding: 7.5px 15px;
-  border: none;
-  border-radius: $rounded;
-  background: $accent;
-  color: $white;
-  font-size: 1rem;
+  padding: $space-3 $space-5;
+  border: 1px solid transparent;
+  border-radius: $radius-pill;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--body);
+  font-size: $step-0;
+  font-weight: $semibold;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  text-decoration: none;
   cursor: pointer;
-  transition: background $fast;
+  transition: transform $fast, background $fast, box-shadow $fast;
+
+  i,
+  svg {
+    transition: transform $base;
+  }
 
   &:hover {
-    background: $gray-500;
+    background: var(--accent-hover);
+    color: #fff;
+    transform: translateY(-2px);
+    box-shadow: $shadow-glow;
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  &[data-flip] {
+    flex-direction: row-reverse;
+  }
+
+  &[data-flip]:hover i,
+  &[data-flip]:hover svg {
+    transform: translateX(3px);
+  }
+
+  // Secondary / outline variant — data-style="ghost"
+  &[data-style="ghost"] {
+    background: transparent;
+    color: var(--heading);
+    border-color: var(--border-strong);
+
+    &:hover {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--accent);
+      box-shadow: none;
+    }
+  }
+}
+
+// On dark backgrounds, ghost buttons stay legible
+[data-dark="true"] .button[data-style="ghost"] {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.3);
+
+  &:hover {
+    color: #fff;
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.1);
   }
 }

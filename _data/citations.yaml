@@ -1,6 +1,3 @@
-# DO NOT EDIT, GENERATED AUTOMATICALLY FROM SOURCES.YAML (AND ELSEWHERE)
-# See https://github.com/greenelab/lab-website-template/wiki/Citations
-
 - id: doi:10.1016/j.trecan.2026.03.002
   title: Epigenetic, epitranscriptomic, and metabolic control of T cell exhaustion
   authors:
@@ -9,19 +6,15 @@
   - Marguerite Laprie-Sentenac
   - Laurie Menger
   publisher: Trends in Cancer
-  date: '2026-04-01'
+  date: '2026-07-01'
   link: https://doi.org/hbzmxn
   tags:
-  - CAR T cells
-  - T cell exhaustion
-  - T cell therapy
-  - epigenetics
-  - epitranscriptomics
-  - metabolism
-  _cache: 8e43cd523a45dca11e0c9fc830dc7ece9bf2c9d1a0040d498f39e5276115def7
+  - T-cell biology
+  - T-cell exhaustion
+  - Epigenetics
+  _cache: 23ecb5d48d8a681f115e5469c1825ccddd27d55c5ad0afbeb217370f23d8849e
 - id: https://doi.org/10.1038/s41551-024-01282-8
-  title: "Ablation of FAS confers allogeneic CD3\u2013 CAR T cells with resistance\
-    \ to rejection by T cells and natural killer cells"
+  title: Ablation of FAS confers allogeneic CD3– CAR T cells with resistance to rejection by T cells and natural killer cells
   authors:
   - Silvia Menegatti
   - Sheila Lopez-Cobo
@@ -29,7 +22,7 @@
   - Jaime Fuentealba
   - Lisseth Silva
   - Laetitia Perrin
-  - "Sandrine Heurtebise-Chr\xE9tien"
+  - Sandrine Heurtebise-Chrétien
   - Valentine Pottez-Jouatte
   - Aurelie Darbois
   - Nina Burgdorf
@@ -47,16 +40,13 @@
   date: '2024-12-01'
   link: https://www.nature.com/articles/s41551-024-01282-8
   tags:
-  - highlights
-  - Antibodies
-  - Eukaryotic cell lines
-  - Animals and other organisms
-  - Flow cytometry
+  - CAR-T cells
+  - Cell engineering
+  - CRISPR screening
   image: https://media.springernature.com/m312/springer-static/image/art%3A10.1038%2Fs41551-024-01282-8/MediaObjects/41551_2024_1282_Fig1_HTML.png
-  _cache: 53b5307d3367bb4dfe65c3b42c4b447b70bca655d2231dd5019b83fc16b6481e
+  _cache: a14c99387a4f415dae0abf049de116b9f835d8292bfdfb818dc7df29e08ab859
 - id: https://doi.org/10.1038/s43018-023-00570-7
-  title: "Tumor-intrinsic sensitivity to the pro-apoptotic effects of IFN-\u03B3 is\
-    \ a major determinant of CD4+ CAR T-cell antitumor activity"
+  title: Tumor-intrinsic sensitivity to the pro-apoptotic effects of IFN-γ is a major determinant of CD4+ CAR T-cell antitumor activity
   authors:
   - Morgane Boulch
   - Marine Cazaux
@@ -64,9 +54,9 @@
   - Marion V. Guerin
   - Zacarias Garcia
   - Ruby Alonso
-  - "Fabrice Lema\xEEtre"
+  - Fabrice Lemaître
   - Alexander Beer
-  - "B\xE9atrice Corre"
+  - Béatrice Corre
   - Laurie Menger
   - Capucine L. Grandjean
   - Florence Morin
@@ -77,14 +67,12 @@
   date: '2023-07-01'
   link: https://www.nature.com/articles/s43018-023-00570-7
   tags:
-  - Cancer
-  - Imaging the immune system
-  - Immunotherapy
+  - CAR-T cells
+  - Tumor immunity
   image: https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs43018-023-00570-7/MediaObjects/43018_2023_570_Fig2_HTML.png
-  _cache: 726aa845cefa07f5af1a3b7597f81c0866ccda81ffac165353c3fbfda062bbca
+  _cache: bd321b6afaf370105c5826435f02b42e26375af8406a0d017b685a5552eac355
 - id: doi:10.1016/j.xpro.2022.101922
-  title: "Optimized protocol to generate genome-wide inactivated Cas9-expressing murine\
-    \ T\_cells"
+  title: Optimized protocol to generate genome-wide inactivated Cas9-expressing murine T cells
   authors:
   - Marguerite Laprie-Sentenac
   - Clara Cretet-Rodeschini
@@ -93,30 +81,28 @@
   date: '2023-03-01'
   link: https://doi.org/g8x64h
   tags:
-  - highlights
-  - genomics
-  - tb
+  - CRISPR screening
+  - Cell engineering
   image: https://ars.els-cdn.com/content/image/1-s2.0-S2666166722008024-fx1_lrg.jpg
-  _cache: e8460155802d12b8d9092ec7db8ada422a0295935a5b164327627dc46abba920
+  _cache: eb1cf4b830a5033389490d2e0de196a4cd86c2baac35bdc315fff14f0ecad549
 - id: https://doi.org/10.1136/jitc-2022-004807
-  title: Single-cell transcriptomics reveals shared immunosuppressive landscapes of
-    mouse and human neuroblastoma
+  title: Single-cell transcriptomics reveals shared immunosuppressive landscapes of mouse and human neuroblastoma
   authors:
   - Ana Costa
-  - "C\xE9cile Thirant"
+  - Cécile Thirant
   - Amira Kramdi
-  - "C\xE9cile Pierre-Eug\xE8ne"
+  - Cécile Pierre-Eugène
   - Caroline Louis-Brennetot
-  - "Orph\xE9e Blanchard"
+  - Orphée Blanchard
   - Didier Surdez
   - Nadege Gruel
   - Eve Lapouble
-  - "Ga\xEBlle Pierron"
+  - Gaëlle Pierron
   - Deborah Sitbon
-  - "Herv\xE9 Brisse"
+  - Hervé Brisse
   - Arnaud Gauthier
-  - "Paul Fr\xE9neaux"
-  - "Myl\xE8ne Bohec"
+  - Paul Fréneaux
+  - Mylène Bohec
   - Virginie Raynal
   - Sylvain Baulande
   - Renaud Leclere
@@ -133,22 +119,21 @@
   - Isabelle Janoueix-Lerosey
   publisher: Journal for ImmunoTherapy of Cancer
   date: '2022-08-01'
-  link: https://jitc.bmj.com/content/10/8/e004807
+  link: https://jitc.bmj.com/lookup/doi/10.1136/jitc-2022-004807
   tags:
-  - single cell
-  - transcriptomics
+  - Single-cell analysis
+  - Tumor immunity
   image: https://jitc.bmj.com/content/jitc/10/8/e004807/F1.medium.gif
-  _cache: a8475550afc857cf2d9404deeab979e5411e27d41232d51a2e9dffe78f7eec25
+  _cache: c1f51202090cd559b0812f88296fa623f60545d414dfaefd15ad9890cefa751b
 - id: doi:10.1016/j.cell.2022.02.021
-  title: "Tissue-resident FOLR2+ macrophages associate with CD8+ T\_cell infiltration\
-    \ in human breast cancer"
+  title: Tissue-resident FOLR2+ macrophages associate with CD8+ T cell infiltration in human breast cancer
   authors:
   - Rodrigo Nalio Ramos
   - Yoann Missolo-Koussou
   - Yohan Gerber-Ferder
   - Christian P. Bromley
   - Mattia Bugatti
-  - "Nicolas Gonzalo N\xFA\xF1ez"
+  - Nicolas Gonzalo Núñez
   - Jimena Tosello Boari
   - Wilfrid Richer
   - Laurie Menger
@@ -158,11 +143,11 @@
   - Fiorella Kotsias
   - Leticia L. Niborski
   - Sophie Viel
-  - "Myl\xE8ne Bohec"
+  - Mylène Bohec
   - Sonia Lameiras
   - Sylvain Baulande
-  - "La\xEBtitia Lesage"
-  - "Andr\xE9 Nicolas"
+  - Laëtitia Lesage
+  - André Nicolas
   - Didier Meseure
   - Anne Vincent-Salomon
   - Fabien Reyal
@@ -170,8 +155,8 @@
   - Florent Ginhoux
   - Lene Vimeux
   - Emmanuel Donnadieu
-  - "B\xE9n\xE9dicte Buttard"
-  - "J\xE9r\xF4me Galon"
+  - Bénédicte Buttard
+  - Jérôme Galon
   - Santiago Zelenay
   - William Vermi
   - Pierre Guermonprez
@@ -181,27 +166,26 @@
   date: '2022-03-01'
   link: https://doi.org/gprm5g
   tags:
-  - single cell
-  - transcriptomics
+  - Single-cell analysis
+  - Tumor immunity
   image: https://ars.els-cdn.com/content/image/1-s2.0-S009286742200201X-fx1_lrg.jpg
-  _cache: 54c2fbb851a1b1cdb540e9197996ee8d9158b55c0303fb9d9ca3ec09239460ee
+  _cache: 514845997c95188fed325bf246cf0aa76ece63b0963f14e93da930683a75f599
 - id: https://doi.org/10.1126/sciimmunol.abe8219
-  title: In vivo genome-wide CRISPR screens identify SOCS1 as intrinsic checkpoint
-    of CD4 <sup>+</sup> T <sub>H</sub> 1 cell response
+  title: In vivo genome-wide CRISPR screens identify SOCS1 as intrinsic checkpoint of CD4 <sup>+</sup> T <sub>H</sub> 1 cell response
   authors:
-  - "Aur\xE9lien Sutra Del Galy"
+  - Aurélien Sutra Del Galy
   - Silvia Menegatti
   - Jaime Fuentealba
   - Francesca Lucibello
   - Laetitia Perrin
   - Julie Helft
-  - "Aur\xE9lie Darbois"
+  - Aurélie Darbois
   - Michael Saitakis
   - Jimena Tosello
   - Derek Rookhuizen
   - Marc Deloger
   - Pierre Gestraud
-  - "G\xE9rard Soci\xE9"
+  - Gérard Socié
   - Sebastian Amigorena
   - Olivier Lantz
   - Laurie Menger
@@ -209,11 +193,10 @@
   date: '2021-12-24'
   link: https://www.science.org/doi/10.1126/sciimmunol.abe8219
   tags:
-  - highlights
-  - single cell
-  - transcriptomics
+  - CRISPR screening
+  - T-cell biology
   image: https://www.science.org/cms/asset/5f2ec23e-aac6-4643-b154-40bed2014a74/keyimage.gif
-  _cache: 6ab11a9069499827c84cf68fe1ce4f9d720f4a0edd86d75ec9cd0c080b42d376
+  _cache: 12924fbe98b04862a8e3de4e49ca4dcbb5f509c428c93b80ee7ef10c7e162445
 - id: doi:10.1016/bs.mie.2019.05.048
   title: Methods to edit T cells for cancer immunotherapy
   authors:
@@ -223,10 +206,12 @@
   publisher: Methods in Enzymology
   date: '2020-01-01'
   link: https://doi.org/g8x64j
-  _cache: 02754c208c4d14174dc2a8a824921c11161a1e7be2d034664b0f2acce454f069
+  tags:
+  - Cell engineering
+  - T-cell biology
+  _cache: e8239fe9c940a07171c9e29bbd30558c5a390b48a14605215b165f4492b3e328
 - id: https://doi.org/10.1158/0008-5472.CAN-15-3352
-  title: TALEN-Mediated Inactivation of PD-1 in Tumor-Reactive Lymphocytes Promotes
-    Intratumoral T-cell Persistence and Rejection of Established Tumors
+  title: TALEN-Mediated Inactivation of PD-1 in Tumor-Reactive Lymphocytes Promotes Intratumoral T-cell Persistence and Rejection of Established Tumors
   authors:
   - Laurie Menger
   - Anna Sledzinska
@@ -241,13 +226,15 @@
   publisher: Cancer Research
   date: '2016-04-15'
   link: https://aacrjournals.org/cancerres/article/76/8/2087/616796/TALEN-Mediated-Inactivation-of-PD-1-in-Tumor
+  tags:
+  - Cell engineering
+  - Tumor immunity
   image: https://aacrjournals.org/view-large/figure/13294761/2087fig1.jpeg
-  _cache: 61f2b8e4b3746e4ff7a80a835e891bf336d4b6608a9845f836c71ac6cefbb6ed
+  _cache: 9b79d863e6264e9d1ee0684a59688b2c7e3ffbe97eff73d7336195d4cec8e820
 - id: https://doi.org/10.1016/j.molonc.2015.10.008
-  title: Negative immune checkpoints on T lymphocytes and their relevance to cancer
-    immunotherapy
+  title: Negative immune checkpoints on T lymphocytes and their relevance to cancer immunotherapy
   authors:
-  - "Anna \u015Aledzi\u0144ska"
+  - Anna Śledzińska
   - Laurie Menger
   - Katharina Bergerhoff
   - Karl S. Peggs
@@ -255,10 +242,12 @@
   publisher: Molecular Oncology
   date: '2015-12-01'
   link: https://febs.onlinelibrary.wiley.com/doi/10.1016/j.molonc.2015.10.008
-  _cache: d1e25b942ec1fce695e6d8b88a484344f6025251fb0a1b02cad423a085fed8e3
+  tags:
+  - T-cell biology
+  - Tumor immunity
+  _cache: 1004a5d5d173071a1bf0a3e0725c4a1eb1cc538f7501d0be5e2756beb69f001a
 - id: https://doi.org/10.1182/blood-2015-08-664755
-  title: TALEN-mediated genetic inactivation of the glucocorticoid receptor in cytomegalovirus-specific
-    T cells
+  title: TALEN-mediated genetic inactivation of the glucocorticoid receptor in cytomegalovirus-specific T cells
   authors:
   - Laurie Menger
   - Agnes Gouble
@@ -275,8 +264,11 @@
   publisher: Blood
   date: '2015-12-24'
   link: https://ashpublications.org/blood/article/126/26/2781/34783/TALENmediated-genetic-inactivation-of-the
+  tags:
+  - Cell engineering
+  - T-cell biology
   image: https://ashpublications.org/view-large/figure/7494804/2781f1.jpeg
-  _cache: cc2a1737b953b4394b32356263a682de2c7c7f459be34bb873a181e411ca8fff
+  _cache: c899e4750f7dd5273078ad626f2aca92d2d78193577114b7b5cf2cdb4492e686
 - id: doi:10.1016/j.cytogfr.2013.05.001
   title: Crosstalk between ER stress and immunogenic cell death
   authors:
@@ -296,7 +288,9 @@
   publisher: Cytokine & Growth Factor Reviews
   date: '2013-08-01'
   link: https://doi.org/f5cfnt
-  _cache: 6ce7731f16a97ef7ba107178f4de8071c8ec5ab5f2b37ddb6e9270de88280492
+  tags:
+  - Cell death
+  _cache: 275375513b34e97938944827993d3f4034367f2cf4e5323530ba5344330b1229
 - id: doi:10.4161/onci.23082
   title: Trial watch
   authors:
@@ -311,10 +305,11 @@
   publisher: OncoImmunology
   date: '2013-02-01'
   link: https://doi.org/g8x64f
-  _cache: 7d77d891e7cf0c24845c6a656e5dedcf8b44432847a0ce4ec2e37cf6a896187f
+  tags:
+  - Cell death
+  _cache: bda7f9662a05864604d1f8d4f582f38064faebfb20a0e4bccc25d2d3489bc00a
 - id: doi:10.1126/scitranslmed.3003807
-  title: Cardiac Glycosides Exert Anticancer Effects by Inducing Immunogenic Cell
-    Death
+  title: Cardiac Glycosides Exert Anticancer Effects by Inducing Immunogenic Cell Death
   authors:
   - Laurie Menger
   - Erika Vacchelli
@@ -324,20 +319,490 @@
   - Shensi Shen
   - Takahiro Yamazaki
   - Abdul Qader Sukkurwala
-  - "Micka\xEBl Michaud"
-  - "Gr\xE9goire Mignot"
+  - Mickaël Michaud
+  - Grégoire Mignot
   - Frederic Schlemmer
   - Eric Sulpice
   - Clara Locher
   - Xavier Gidrol
-  - "Fran\xE7ois Ghiringhelli"
+  - François Ghiringhelli
   - Nazanine Modjtahedi
   - Lorenzo Galluzzi
-  - "Fabrice Andr\xE9"
+  - Fabrice André
   - Laurence Zitvogel
   - Oliver Kepp
   - Guido Kroemer
   publisher: Science Translational Medicine
   date: '2012-07-18'
   link: https://doi.org/gbbdjj
-  _cache: 951551f10d4ee901f43e64aa3638898e0b3d50eb1eef0a1deda3ffc3f54b8325
+  tags:
+  - Cell death
+  - Tumor immunity
+  _cache: cadddfb2abb95a8d4e1017bcb8778953eef41b6ae72828c956633c636bcfa0d3
+- id: doi:10.1126/scitranslmed.adu9790
+  title: CAR T cell–mediated bone marrow inflammation causes hematotoxicity and favors clonal hematopoiesis
+  authors:
+  - Myriam Ben Khelil
+  - Ahmadreza Arbab
+  - Janesa Srikanthan
+  - Laura Marcos Kovandzic
+  - Véronique Vergé
+  - Arnaud Pagès
+  - Jessica Rengassamy
+  - Roula Amine-Hneineh
+  - Marine Aglave
+  - Rémy Jelin
+  - Vincent Ribrag
+  - Wassila Rahali
+  - Paul-Auguste Goutebroze
+  - Stéphane de Botton
+  - Laurie Menger
+  - Ileana Antony-Debré
+  - Jean-Baptiste Micol
+  - Christophe Marzac
+  - Cristina Castilla Llorente
+  - Camille Bigenwald
+  publisher: Science Translational Medicine
+  date: '2025-09-24'
+  link: https://doi.org/hcj86g
+  tags:
+  - CAR-T cells
+  _cache: cbe77a0cde926bef4236c73f77c7b3f66e08c22cf0ec88a401b13a14a8c62648
+- id: doi:10.1158/2159-8290.CD-24-1230
+  title: Gut Microbiota Modulation through <i>Akkermansia</i> spp. Supplementation Increases CAR T-cell Potency
+  authors:
+  - Laura Marcos-Kovandzic
+  - Michele Avagliano
+  - Myriam Ben Khelil
+  - Janesa Srikanthan
+  - Rim Abdallah
+  - Valentina Petrocelli
+  - Jessica Rengassamy
+  - Alexia Alfaro
+  - Mathilde Bied
+  - Marine Fidelle
+  - Gladys Ferrere
+  - Romain Daillère
+  - Ahmadreza Arbab
+  - Roula Amine-Hneineh
+  - Arnaud Pages
+  - Peggy Dartigues
+  - Pierre Ly
+  - Sylvain Simon
+  - Sylvère Durand
+  - Adrian Gottschlich
+  - Florent Ginhoux
+  - Camille Blériot
+  - Peng Liu
+  - Liwei Zhao
+  - Laura Creusot
+  - Nathalie Rolhion
+  - Lisa Derosa
+  - Guido Kroemer
+  - Laurie Menger
+  - Sebastian Kobold
+  - Cristina Castilla-Llorente
+  - Harry Sokol
+  - Stefano Casola
+  - Edoardo Pasolli
+  - Laurence Zitvogel
+  - Camille Bigenwald
+  publisher: Cancer Discovery
+  date: '2025-06-11'
+  link: https://doi.org/hcj86h
+  tags:
+  - CAR-T cells
+  - Tumor immunity
+  _cache: 5250cfd03ae450bcdf847f2406e550bf0263adca1306e0dc49866e5e5a89a9d5
+- id: doi:10.1158/2326-6066.CIR-22-0534
+  title: Acute Influenza Infection Promotes Lung Tumor Growth by Reprogramming the Tumor Microenvironment
+  authors:
+  - Irati Garmendia
+  - Aditi Varthaman
+  - Solenne Marmier
+  - Mahmud Angrini
+  - Ingrid Matchoua
+  - Aurelie Darbois-Delahousse
+  - Nathalie Josseaume
+  - Pierre-Emmanuel Foy
+  - Lubka T. Roumenina
+  - Naïra Naouar
+  - Maxime Meylan
+  - Sophie Sibéril
+  - Jules Russick
+  - Pierre-Emmanuel Joubert
+  - Karen Leroy
+  - Diane Damotte
+  - Audrey Mansuet-Lupo
+  - Marie Wislez
+  - Marco Alifano
+  - Laurie Menger
+  - Ignacio Garcia-Verdugo
+  - Jean-Michel Sallenave
+  - Olivier Lantz
+  - Florent Petitprez
+  - Isabelle Cremer
+  publisher: Cancer Immunology Research
+  date: '2023-03-08'
+  link: https://doi.org/hbpqdn
+  tags:
+  - Tumor immunity
+  _cache: 5ea0bedaf3827d2ee0b3c6fd5ec997dd5193882527b0f5d2344bb69271342e7d
+- id: doi:10.1084/jem.20181483
+  title: A common transcriptomic program acquired in the thymus defines tissue residency of MAIT and NKT subsets
+  authors:
+  - Marion Salou
+  - François Legoux
+  - Jules Gilet
+  - Aurélie Darbois
+  - Anastasia du Halgouet
+  - Ruby Alonso
+  - Wilfrid Richer
+  - Anne-Gaëlle Goubet
+  - Céline Daviaud
+  - Laurie Menger
+  - Emanuele Procopio
+  - Virginie Premel
+  - Olivier Lantz
+  publisher: Journal of Experimental Medicine
+  date: '2018-12-05'
+  link: https://doi.org/hcj86j
+  tags:
+  - T-cell biology
+  _cache: 14cb38cecc57e630b0211ff773c7b6a7c7f02fef0dc9e00a280075b6ae0f3219
+- id: doi:10.4161/21624011.2014.955691
+  title: Consensus guidelines for the detection of immunogenic cell death
+  authors:
+  - Oliver Kepp
+  - Laura Senovilla
+  - Ilio Vitale
+  - Erika Vacchelli
+  - Sandy Adjemian
+  - Patrizia Agostinis
+  - Lionel Apetoh
+  - Fernando Aranda
+  - Vincenzo Barnaba
+  - Norma Bloy
+  - Laura Bracci
+  - Karine Breckpot
+  - David Brough
+  - Aitziber Buqué
+  - Maria G. Castro
+  - Mara Cirone
+  - Maria I. Colombo
+  - Isabelle Cremer
+  - Sandra Demaria
+  - Luciana Dini
+  - Aristides G. Eliopoulos
+  - Alberto Faggioni
+  - Silvia C. Formenti
+  - Jitka Fučíková
+  - Lucia Gabriele
+  - Udo S. Gaipl
+  - Jérôme Galon
+  - Abhishek Garg
+  - François Ghiringhelli
+  - Nathalia A. Giese
+  - Zong Sheng Guo
+  - Akseli Hemminki
+  - Martin Herrmann
+  - James W. Hodge
+  - Stefan Holdenrieder
+  - Jamie Honeychurch
+  - Hong-Min Hu
+  - Xing Huang
+  - Tim M. Illidge
+  - Koji Kono
+  - Mladen Korbelik
+  - Dmitri V. Krysko
+  - Sherene Loi
+  - Pedro R. Lowenstein
+  - Enrico Lugli
+  - Yuting Ma
+  - Frank Madeo
+  - Angelo A. Manfredi
+  - Isabelle Martins
+  - Domenico Mavilio
+  - Laurie Menger
+  - Nicolò Merendino
+  - Michael Michaud
+  - Gregoire Mignot
+  - Karen L. Mossman
+  - Gabriele Multhoff
+  - Rudolf Oehler
+  - Fabio Palombo
+  - Theocharis Panaretakis
+  - Jonathan Pol
+  - Enrico Proietti
+  - Jean-Ehrland Ricci
+  - Chiara Riganti
+  - Patrizia Rovere-Querini
+  - Anna Rubartelli
+  - Antonella Sistigu
+  - Mark J. Smyth
+  - Juergen Sonnemann
+  - Radek Spisek
+  - John Stagg
+  - Abdul Qader Sukkurwala
+  - Eric Tartour
+  - Andrew Thorburn
+  - Stephen H. Thorne
+  - Peter Vandenabeele
+  - Francesca Velotti
+  - Samuel T. Workenhe
+  - Haining Yang
+  - Wei-Xing Zong
+  - Laurence Zitvogel
+  - Guido Kroemer
+  - Lorenzo Galluzzi
+  publisher: OncoImmunology
+  date: '2014-09-02'
+  link: https://doi.org/f3nrvv
+  tags:
+  - Cell death
+  _cache: 5135d538375fcdaea70130da885fa888e2874c3151228606b5f82e07ff6c2874
+- id: doi:10.1016/j.immuni.2013.03.003
+  title: Anticancer Chemotherapy-Induced Intratumoral Recruitment and Differentiation of Antigen-Presenting Cells
+  authors:
+  - Yuting Ma
+  - Sandy Adjemian
+  - Stephen R. Mattarollo
+  - Takahiro Yamazaki
+  - Laetitia Aymeric
+  - Heng Yang
+  - João Paulo Portela Catani
+  - Dalil Hannani
+  - Helene Duret
+  - Kim Steegh
+  - Isabelle Martins
+  - Frederic Schlemmer
+  - Mickaël Michaud
+  - Oliver Kepp
+  - Abdul Qader Sukkurwala
+  - Laurie Menger
+  - Erika Vacchelli
+  - Nathalie Droin
+  - Lorenzo Galluzzi
+  - Roman Krzysiek
+  - Siamon Gordon
+  - Philip R. Taylor
+  - Peter Van Endert
+  - Eric Solary
+  - Mark J. Smyth
+  - Laurence Zitvogel
+  - Guido Kroemer
+  publisher: Immunity
+  date: '2013-04-01'
+  link: https://doi.org/f4zskh
+  tags:
+  - Cell death
+  - Tumor immunity
+  _cache: 9371f93434ac364fff912f5e93dcba213d6ddddc49c46199c110874a9c523ad6
+- id: doi:10.1007/978-1-62703-383-1_4
+  title: Fluorescent Biosensors for the Detection of HMGB1 Release
+  authors:
+  - Isabelle Martins
+  - Oliver Kepp
+  - Laurie Menger
+  - Mickäel Michaud
+  - Sandy Adjemian
+  - Abdul Qader Sukkurwala
+  - Erika Vacchelli
+  - Lorenzo Galluzzi
+  - Guido Kroemer
+  publisher: Methods in Molecular Biology
+  date: '2013-01-01'
+  link: https://doi.org/f4z3t6
+  tags:
+  - Cell death
+  _cache: 7aa2f53450629f33014f2d4f35adb567da4cb1c54c698f85125dd9dd85d8decf
+- id: doi:10.1007/978-1-62703-239-1_7
+  title: Quantification of Cell Cycle-Arresting Proteins
+  authors:
+  - Oliver Kepp
+  - Isabelle Martins
+  - Laurie Menger
+  - Mickaël Michaud
+  - Sandy Adjemian
+  - Abdul Qader Sukkurwala
+  - Lorenzo Galluzzi
+  - Guido Kroemer
+  publisher: Methods in Molecular Biology
+  date: '2012-11-01'
+  link: https://doi.org/hcj86k
+  tags:
+  - Cell death
+  _cache: 6355685c6b084b77b746e9bde58aa61049cdefbf88f193f7d07111b6c72a5cec
+- id: doi:10.4161/onci.21684
+  title: Anticancer activity of cardiac glycosides
+  authors:
+  - Oliver Kepp
+  - Laurie Menger
+  - Erika Vacchelli
+  - Sandy Adjemian
+  - Isabelle Martins
+  - Yuting Ma
+  - Abdul Qader Sukkurwala
+  - Mickaël Michaud
+  - Lorenzo Galluzzi
+  - Laurence Zitvogel
+  - Guido Kroemer
+  publisher: OncoImmunology
+  date: '2012-12-01'
+  link: https://doi.org/hcj86m
+  tags:
+  - Cell death
+  _cache: 546ce9980ef739b317fc414102eebd0ae2fd20441ec24acfdcb19331d30a46c2
+- id: doi:10.4161/onci.18684
+  title: Loss-of-function alleles of <i>P2RX7</i> and <i>TLR4</i> fail to affect the response to chemotherapy in non-small cell lung cancer
+  authors:
+  - Erika Vacchelli
+  - Lorenzo Galluzzi
+  - Vanessa Rousseau
+  - Alice Rigoni
+  - Antoine Tesniere
+  - Nicolas Delahaye
+  - Fre´de´ric Schlemmer
+  - Laurie Menger
+  - Abdul Qader Sukkurwala
+  - Sandy Adjemian
+  - Isabelle Martins
+  - Mickaël Michaud
+  - Ariane Dunant
+  - Oliver Kepp
+  - Elisabeth Brambilla
+  - Jean-Charles Soria
+  - Laurence Zitvogel
+  - Guido Kroemer
+  publisher: OncoImmunology
+  date: '2012-05-01'
+  link: https://doi.org/gpsfm6
+  tags:
+  - Cell death
+  _cache: 8db3538aef8d0b3b9b0a194a65276f64bd4db32d340650fc1d011265d91f73f2
+- id: doi:10.4161/auto.19009
+  title: Premortem autophagy determines the immunogenicity of chemotherapy-induced cancer cell death
+  authors:
+  - Isabelle Martins
+  - Mickaël Michaud
+  - Abdul Qader Sukkurwala
+  - Sandy Adjemian
+  - Yuting Ma
+  - Shensi Shen
+  - Oliver Kepp
+  - Laurie Menger
+  - Erika Vacchelli
+  - Lorenzo Galluzzi
+  - Laurence Zitvogel
+  - Guido Kroemer
+  publisher: Autophagy
+  date: '2012-03-19'
+  link: https://doi.org/g8kjhm
+  tags:
+  - Cell death
+  - Tumor immunity
+  _cache: 5e55d54f71928d1764eef0ffde4ec46e585be087a294dfc9b57e3eeda4fe0b56
+- id: doi:10.1126/science.1208347
+  title: Autophagy-Dependent Anticancer Immune Responses Induced by Chemotherapeutic Agents in Mice
+  authors:
+  - Mickaël Michaud
+  - Isabelle Martins
+  - Abdul Qader Sukkurwala
+  - Sandy Adjemian
+  - Yuting Ma
+  - Patrizia Pellegatti
+  - Shensi Shen
+  - Oliver Kepp
+  - Marie Scoazec
+  - Grégoire Mignot
+  - Santiago Rello-Varona
+  - Maximilien Tailler
+  - Laurie Menger
+  - Erika Vacchelli
+  - Lorenzo Galluzzi
+  - François Ghiringhelli
+  - Francesco di Virgilio
+  - Laurence Zitvogel
+  - Guido Kroemer
+  publisher: Science
+  date: '2011-12-16'
+  link: https://doi.org/fm953b
+  tags:
+  - Cell death
+  - Tumor immunity
+  _cache: 7dda06052bad8f0ab97c7778665ac9ff7e512e809840eaa065b52407690035cb
+- id: doi:10.1038/onc.2010.500
+  title: Restoration of the immunogenicity of cisplatin-induced cancer cell death by endoplasmic reticulum stress
+  authors:
+  - I Martins
+  - O Kepp
+  - F Schlemmer
+  - S Adjemian
+  - M Tailler
+  - S Shen
+  - M Michaud
+  - L Menger
+  - A Gdoura
+  - N Tajeddine
+  - A Tesniere
+  - L Zitvogel
+  - G Kroemer
+  publisher: Oncogene
+  date: '2010-12-13'
+  link: https://doi.org/ffw9bt
+  tags:
+  - Cell death
+  _cache: ede39960f7630feb9e9b17e6aead1b1af6bd81562144107c558cf46e00a776dc
+- id: doi:10.1007/s10555-011-9273-4
+  title: Molecular determinants of immunogenic cell death elicited by anticancer chemotherapy
+  authors:
+  - Oliver Kepp
+  - Lorenzo Galluzzi
+  - Isabelle Martins
+  - Frederic Schlemmer
+  - Sandy Adjemian
+  - Mickael Michaud
+  - Abdul Qader Sukkurwala
+  - Laurie Menger
+  - Laurence Zitvogel
+  - Guido Kroemer
+  publisher: Cancer and Metastasis Reviews
+  date: '2011-01-21'
+  link: https://doi.org/fnh9mg
+  tags:
+  - Cell death
+  _cache: 22dd8bb76bf30bd291b2685f31d0e4716593de144ccdfa92f054a8a065341675
+- id: doi:10.1111/j.1749-6632.2010.05740.x
+  title: Surface‐exposed calreticulin in the interaction between dying cells and phagocytes
+  authors:
+  - Isabelle Martins
+  - Oliver Kepp
+  - Lorenzo Galluzzi
+  - Laura Senovilla
+  - Frederic Schlemmer
+  - Sandy Adjemian
+  - Laurie Menger
+  - Mickael Michaud
+  - Laurence Zitvogel
+  - Guido Kroemer
+  publisher: Annals of the New York Academy of Sciences
+  date: '2010-10-01'
+  link: https://doi.org/ck3fm2
+  tags:
+  - Cell death
+  _cache: e803bec6bbee1bd1f59ad3323fd6218470bdd7de005acec764a552cba894d4ad
+- id: doi:10.1158/1078-0432.CCR-09-2891
+  title: 'Immunogenic Tumor Cell Death for Optimal Anticancer Therapy: The Calreticulin Exposure Pathway'
+  authors:
+  - Laurence Zitvogel
+  - Oliver Kepp
+  - Laura Senovilla
+  - Laurie Menger
+  - Nathalie Chaput
+  - Guido Kroemer
+  publisher: Clinical Cancer Research
+  date: '2010-06-14'
+  link: https://doi.org/bjnr83
+  tags:
+  - Cell death
+  _cache: 857d4352f810692978ee7bf28a9bed383ae6dbd9e04da6a93de9d862bb8577b6

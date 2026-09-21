@@ -1,7 +1,7 @@
 ---
 name: Albane Simon
 image: images/team/Albane_Simon.png
-description: Graduate student
+description: PhD student
 role: phd
 aliases:
   - Albane Simon
@@ -17,5 +17,5 @@ Education:
 
 2021-2023: Master’s in Biology – Health Sciences at École Normale Supérieure (Ulm)
 
-2023-present: PhD under Laurie MENGER’s supervision (INSERM U1015 – Paris-Saclay University)
+2023-present: PhD under Laurie MENGER’s supervision (INSERM U1356 – Paris-Saclay University)
 

@@ -5,51 +5,71 @@
 @import "theme";
 @import "mixins";
 
+// Inline prose links — animated underline that thickens on hover
 a {
-  color: $accent;
-  transition: color $fast;
+  color: var(--accent);
+  text-decoration: none;
   overflow-wrap: break-word;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 1px;
+  transition: color $fast, background-size $base, background-color $base;
+
+  &:hover {
+    color: var(--accent-hover);
+    background-size: 100% 2px;
+  }
 }
 
-a:hover {
-  color: currentColor;
-}
-
+// The .link component (icon + text) opts out of the underline
 .link {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: $space-2;
   max-width: 100%;
-  margin: 5px;
-  padding: 5px;
-  font-size: 0.9rem;
-  text-decoration: none;
+  margin: $space-1 0;
+  padding: $space-1 0;
+  font-family: var(--body);
+  font-size: $step-0;
+  font-weight: $semibold;
+  color: var(--accent);
+  background-image: none;
   vertical-align: middle;
-  transition: background $fast, color $fast, opacity $fast;
+  transition: color $fast, gap $base;
 
   span {
-    text-align: center;
-    font-family: $sans;
-    font-weight: $medium;
-    line-height: 1;
+    font-weight: $semibold;
+    line-height: 1.2;
+  }
+
+  i,
+  svg {
+    transition: transform $base;
   }
 
   &[data-flip="true"] {
     flex-direction: row-reverse;
   }
 
-  &[data-style="button"] {
-    max-width: calc(100% - 10px - 10px);
-    min-height: 40px;
-    margin: 10px;
-    padding: 5px 10px;
-    border-radius: $rounded;
-    background: $accent;
-    color: $white;
-
-    &:hover {
-      background: $gray-500;
-    }
+  &:hover {
+    color: var(--accent-hover);
+    gap: $space-3;
   }
+
+  &[data-flip="true"]:hover i,
+  &[data-flip="true"]:hover svg {
+    transform: translateX(3px);
+  }
+}
+
+// Reset link styling inside cards / features / headings
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+.card a,
+.feature_title a {
+  background-image: none;
 }

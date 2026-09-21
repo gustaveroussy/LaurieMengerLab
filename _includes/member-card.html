@@ -1,0 +1,4 @@
+<a class="member_card" href="{{ include.member.url | relative_url }}">
+  <div class="member_card_photo">{% if include.member.image %}<img src="{{ include.member.image | relative_url }}" alt="{{ include.member.name | escape }}" loading="lazy">{% endif %}</div>
+  <div class="member_card_text"><span class="member_card_role">{{ include.member.description }}</span><h3>{{ include.member.name }}</h3><span class="member_card_more">View profile <span aria-hidden="true">↗</span></span></div>
+</a>

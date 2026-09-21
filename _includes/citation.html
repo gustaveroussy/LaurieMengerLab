@@ -25,7 +25,7 @@
   {%- assign id = citation.id | default: "" -%}
   {%- assign link = citation.link | default: "" -%}
   {%- assign image = citation.image | default: "" -%}
-  {%- if rich -%}
+  {%- if rich and image != "" -%}
     <div class="citation_image">
       <a href="{{ link }}">
         <img
@@ -33,7 +33,7 @@
           onerror="this.src = '{{ placeholder }}'; this.onerror = null;"
           data-tooltip="{{ id }}"
           loading="lazy"
-          alt="Citation thumbnail"
+          alt="Figure from {{ citation.title | escape }}"
         >
       </a>
     </div>
@@ -64,6 +64,9 @@
     {%- if rich -%}
 
       {%- assign tags = citation.tags | default: emptyarray -%}
+      {%- comment -%}Use curated source keywords immediately, including before auto-cite regenerates its cache.{%- endcomment -%}
+      {%- assign source = site.data.sources | where: 'id', citation.id | first -%}
+      {%- if source.tags -%}{%- assign tags = source.tags -%}{%- endif -%}
       {%- assign repo = citation.repo | default: "" -%}
       {%- assign extra-links = citation.extra-links | default: emptyarray -%}
 

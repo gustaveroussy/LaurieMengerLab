@@ -4,12 +4,15 @@
 title: Menger Lab
 subtitle: at Gustave Roussy Institute
 description: immunology · immunotherapy · cancer · bioinformatics
-logo: images/logo_team.png
-logo-text: true
-header: "images/CAR-T-Cell-therapy-Banner.avif"
-header-dark: true
+logo: images/logo_lm_lab.svg
+logo-text: false
+# Clean sticky nav bar (no banner behind it). The CAR-T banner now lives
+# in the editorial hero on the home page instead.
+header: ""
+header-dark: false
 footer: "images/banner.jpg"
 baseurl: /
+url: https://mengerlab.org
 
 # site social media and other links
 links:
@@ -44,6 +47,15 @@ defaults:
       type: "posts"
     values:
       layout: post
+  # keep PDFs and old news posts out of sitemap.xml
+  - scope:
+      path: "images"
+    values:
+      sitemap: false
+  - scope:
+      path: "_posts"
+    values:
+      sitemap: false
 
 # collections
 collections:

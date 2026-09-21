@@ -1,8 +1,8 @@
 ---
 name: Marguerite Laprie-Sentenac
 image: images/team/marguerite-laprie-sentenac_crop.png
-description: Graduate student
-role: phd
+description: Alumni
+role: alumni
 aliases:
   - Marguerite Laprie-Sentenac
 links:

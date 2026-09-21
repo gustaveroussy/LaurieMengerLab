@@ -1,46 +1,41 @@
 ---
 layout: default
 ---
-<h1>{{ page.name | default: page.title }}</h1>
-
-{%- include figure.html image=page.image height = '250px' -%}
-
-<p class="center">
-  {%- include role.html type=page.role text=true description=page.description -%}
-</p>
-
-<p class="center">
-  {%- for entry in page.links -%}
-    {%- assign key = entry[0] -%}
-    {%- assign value = entry[1] -%}
-    {%- include link.html type=key icon="" text="" tooltip="" link=value -%}
-  {%- endfor -%}
-</p>
-
-{{ content }}
-
-{%- assign aliases = "" | split: ',' -%}
-
-{%- if page.aliases.first -%}
-  {%- assign aliases = aliases | concat: page.aliases -%}
-{%- elsif page.aliases -%}
-  {%- assign aliases = aliases | push: page.aliases -%}
-{%- elsif page.name -%}
-  {%- assign aliases = aliases | push: page.name -%}
-{%- elsif page.title -%}
-  {%- assign aliases = aliases | push: page.title -%}
-{%- endif -%}
-
-{%- assign search = aliases | join: '" "' | prepend: '"' | append: '"' | prepend: "/publications/?search=" -%}
-
-{%- capture text -%}
-  See {{ page.name | default: page.title }}'s papers on the publications page
-{%- endcapture -%}
-
-<p class="center">
-  {%- include link.html icon="fas fa-book-open" text=text link=search -%}
-</p>
-
-{% capture search -%}
-  publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
+<a class="profile_back" href="{{ '/team/' | relative_url }}">← Meet the team</a>
+<div class="member_profile">
+  <aside class="profile_identity">
+    {% if page.image %}<img class="profile_photo" src="{{ page.image | relative_url }}" alt="{{ page.name | escape }}" fetchpriority="high">{% endif %}
+    <p class="eyebrow">{{ page.description }}</p>
+    <h1>{{ page.name | default: page.title }}</h1>
+    <p class="profile_affiliation">Menger Lab<br>Gustave Roussy · INSERM U1356</p>
+    <div class="profile_links">
+    {% for entry in page.links %}
+      {% assign link_type = entry[0] %}{% assign link_value = entry[1] %}
+      {% include link.html type=link_type link=link_value icon="" text="" tooltip="" %}
+    {% endfor %}
+    </div>
+  </aside>
+  <div class="profile_biography">
+    <span class="eyebrow">Background &amp; research</span>
+    {{ content | replace: '<!-- section break -->', '<hr>' }}
+    {% assign aliases = page.aliases %}
+    {% unless aliases %}{% assign aliases = page.name | split: '||' %}{% endunless %}
+    {% assign related_count = 0 %}
+    {% capture related_papers %}
+    {% assign papers = site.data.citations | sort: 'date' | reverse %}
+    {% for paper in papers %}
+      {% assign matched = false %}
+      {% for alias in aliases %}{% if paper.authors contains alias %}{% assign matched = true %}{% endif %}{% endfor %}
+      {% if matched %}
+        {% assign related_count = related_count | plus: 1 %}
+        {% if related_count <= 3 %}<li><span>{{ paper.publisher }} · {{ paper.date | date: '%Y' }}</span><a href="{{ paper.link }}">{{ paper.title }}</a></li>{% endif %}
+      {% endif %}
+    {% endfor %}
+    {% endcapture %}
+    {% if related_count > 0 %}
+    <div class="profile_publications"><h2>Recent publications</h2><ul>{{ related_papers }}</ul>
+    {% assign query = aliases | join: '" "' | prepend: '"' | append: '"' | uri_escape %}
+    <a href="{{ '/publications/' | relative_url }}?search={{ query }}">Explore publications by this researcher <span aria-hidden="true">↗</span></a></div>
+    {% endif %}
+  </div>
+</div>
