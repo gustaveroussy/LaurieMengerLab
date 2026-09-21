@@ -24,6 +24,7 @@
     - "To identify genetic targets capable of overcoming D-2HG-mediated immunosuppression, we conducted a genome-wide CRISPR knockout screen in CD8+ T cells. This screen identified several D-2HG-specific negative regulators of T cell effector function, whose activity is being translated into human CAR-T cell models."
   funders:
     - name: Servier
+      logo: images/home/founding/servier.jpg
     - name: Ligue Nationale contre le Cancer
       logo: images/home/founding/ligue_contre_le_cancer.jpeg
   collab: Nabeel Bardeesy (Massachusetts General Hospital)
@@ -50,9 +51,11 @@
 - id: cell-attack
   label: Academic manufacturing
   title: Cell ATTACK — academic CAR-T production
-  short: Academic manufacturing of CAR-T cells at Gustave Roussy.
-  # ponytail: description still to be provided by Laurie
+  short: On-site academic CAR-T manufacturing to accelerate the path from bench to clinical trial.
   members: Aurelien Sutra Del Galy
+  body:
+    - "Research at Gustave Roussy has further demonstrated that host biological factors, notably the gut microbiota and tumor-associated macrophages (TAMs), can influence CAR-T response and contribute to resistance mechanisms."
+    - "The CELL-ATTACK program aims to strengthen academic cell therapy development at Gustave Roussy by establishing on-site CAR-T manufacturing capabilities to accelerate the translation from bench to clinical trial. The program pursues three complementary objectives: (1) improve CAR-T efficacy, persistence, and safety through T cell reprogramming strategies that enhance resistance to exhaustion; (2) understand and modulate patient-specific biological factors, including the intestinal microbiota and TAMs, to overcome resistance; and (3) identify novel tumor-specific antigens using high-resolution profiling to design next-generation CAR-T with reduced toxicity. Together, these approaches aim to expand the applicability of cellular therapies and provide precise, effective treatments for patients with refractory cancers."
   funders:
     - name: Fondation Gustave Roussy
       logo: images/home/founding/Gustave-Roussy.jpg
