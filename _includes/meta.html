@@ -29,6 +29,12 @@
 <meta name="title" content="{{ title }}" />
 <meta name="description" content="{{ description | strip }}" />
 <meta property="og:type" content="website" />
+<meta property="og:site_name" content="{{ site.title }}" />
+{% if page.url == "/" %}
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "WebSite", "name": "{{ site.title }}", "alternateName": ["LM Lab", "Menger Lab · Gustave Roussy"], "url": "{{ site.url }}/"}
+</script>
+{% endif %}
 <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
 <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
 <meta property="og:title" content="{{ title }}" />
