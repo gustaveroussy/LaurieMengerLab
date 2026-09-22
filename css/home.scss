@@ -77,6 +77,12 @@
   .invitation_link { font-size: 14px; text-underline-offset: 5px; }
 }
 
+.lab_invitation.lab_video {
+  grid-template-columns: minmax(0, 360px) 1fr;
+  margin-top: 48px;
+  > video { width: 100%; aspect-ratio: 9 / 16; display: block; background: #000; }
+}
+
 .hero_immersive a:focus-visible,
 .lab_affiliations a:focus-visible,
 .research_path a:focus-visible,
@@ -91,6 +97,8 @@
   .research_path .research_step { padding: 20px; }
   .lab_invitation { grid-template-columns: 1fr; }
   .lab_invitation > img { min-height: 0; height: auto; aspect-ratio: 16 / 9; }
+  .lab_invitation.lab_video { grid-template-columns: 1fr; }
+  .lab_invitation.lab_video > video { max-width: 360px; margin: 0 auto; }
 }
 
 @media (max-width: 600px) {

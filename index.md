@@ -54,6 +54,17 @@ Laurie is an INSERM researcher and young group leader of the Advanced T-cell The
   text=text
 %}
 
+<div class="lab_invitation lab_video">
+  <video controls playsinline preload="none" poster="{{ 'images/home/video/au_coeur_de_la_recherche.jpg' | relative_url }}" aria-label="Au cœur de la recherche: Laurie Menger">
+    <source src="{{ 'images/home/video/au_coeur_de_la_recherche.mp4' | relative_url }}" type="video/mp4" />
+  </video>
+  <div class="lab_invitation_text">
+    <span class="eyebrow">Au cœur de la recherche</span>
+    <h2>Meet Laurie Menger<br>in the lab.</h2>
+    <p>In this short video from Gustave Roussy, Laurie introduces the Advanced T-cell Therapy team and its research. In French, with English subtitles.</p>
+  </div>
+</div>
+
 {% include section.html %}
 
 <span class="eyebrow">What we do</span>
